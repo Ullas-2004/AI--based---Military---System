@@ -1,0 +1,970 @@
+[
+  {
+    "_id": "6a677b762d1cc249f0968e67",
+    "user_id": "seed",
+    "action": "ASSISTANT_QUERY",
+    "details": "Sector Delta activity",
+    "ip_address": "10.20.22.179",
+    "timestamp": "2026-07-20T04:31:29.312000"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e68",
+    "user_id": "seed",
+    "action": "LOGIN_SUCCESS",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.15.122",
+    "timestamp": "2026-07-21T05:04:29.312000"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e69",
+    "user_id": "seed",
+    "action": "VISION_DETECT",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.11.34",
+    "timestamp": "2026-07-22T09:11:29.312000"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e6a",
+    "user_id": "seed",
+    "action": "ASSISTANT_QUERY",
+    "details": "Sector Charlie activity",
+    "ip_address": "10.20.8.231",
+    "timestamp": "2026-07-22T22:45:29.312000"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e6b",
+    "user_id": "seed",
+    "action": "LOGIN_FAILED",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.33.37",
+    "timestamp": "2026-07-22T16:48:29.312000"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e6c",
+    "user_id": "seed",
+    "action": "LOGIN_FAILED",
+    "details": "Sector Alpha activity",
+    "ip_address": "10.20.5.211",
+    "timestamp": "2026-07-22T09:20:29.312000"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e6d",
+    "user_id": "seed",
+    "action": "LOGIN_FAILED",
+    "details": "Sector Alpha activity",
+    "ip_address": "10.20.13.81",
+    "timestamp": "2026-07-24T01:05:29.312000"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e6e",
+    "user_id": "seed",
+    "action": "VISION_DETECT",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.26.194",
+    "timestamp": "2026-07-24T00:19:29.312000"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e6f",
+    "user_id": "seed",
+    "action": "LOGIN_FAILED",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.32.183",
+    "timestamp": "2026-07-25T05:36:29.312000"
+  },
+  {
+    "_id": "6a678aa05cb2e145b2bb613c",
+    "user_id": "6a678aa05cb2e145b2bb613b",
+    "action": "USER_REGISTERED",
+    "details": "New analyst account 'Rachith000bharadwaj'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T16:43:12.422000"
+  },
+  {
+    "_id": "6a678ab05cb2e145b2bb613d",
+    "user_id": "6a678aa05cb2e145b2bb613b",
+    "action": "LOGIN_SUCCESS",
+    "details": "User 'Rachith000bharadwaj' logged in",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T16:43:28.752000"
+  },
+  {
+    "_id": "6a678bb6375ebc5fa4e0fc1e",
+    "user_id": "6a678aa05cb2e145b2bb613b",
+    "action": "LOGIN_SUCCESS",
+    "details": "User 'Rachith000bharadwaj' logged in",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T16:47:50.426000"
+  },
+  {
+    "_id": "6a678dd9678903c7d9b99dc8",
+    "user_id": "6a678aa05cb2e145b2bb613b",
+    "action": "LOGIN_SUCCESS",
+    "details": "User 'Rachith000bharadwaj' logged in",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T16:56:57.779000"
+  },
+  {
+    "_id": "6a678e70406123ef6cac7f52",
+    "user_id": "6a678aa05cb2e145b2bb613b",
+    "action": "LOGIN_SUCCESS",
+    "details": "User 'Rachith000bharadwaj' logged in",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T16:59:28.719000"
+  },
+  {
+    "_id": "6a678ee34c3f029a1bcc163e",
+    "user_id": "6a678aa05cb2e145b2bb613b",
+    "action": "ASSISTANT_QUERY",
+    "details": "hi",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:01:23.476000"
+  },
+  {
+    "_id": "6a678eeb4c3f029a1bcc1640",
+    "user_id": "6a678aa05cb2e145b2bb613b",
+    "action": "REPORT_GENERATED",
+    "details": "",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:01:31.690000"
+  },
+  {
+    "_id": "6a67916ee47ad10234a2b7d5",
+    "user_id": "6a67916ee47ad10234a2b7d4",
+    "action": "USER_REGISTERED",
+    "details": "New analyst account 'e2e_e6b1fc62'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:12:14.623000"
+  },
+  {
+    "_id": "6a679170e47ad10234a2b7d8",
+    "user_id": "6a679170e47ad10234a2b7d7",
+    "action": "USER_REGISTERED",
+    "details": "New admin account 'esce6b1fc62'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:12:16.378000"
+  },
+  {
+    "_id": "6a679171e47ad10234a2b7da",
+    "user_id": "6a679171e47ad10234a2b7d9",
+    "action": "USER_REGISTERED",
+    "details": "New analyst account 'unie6b1fc62'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:12:17.638000"
+  },
+  {
+    "_id": "6a679172e47ad10234a2b7db",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "LOGIN_SUCCESS",
+    "details": "User 'analyst.rao' logged in",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:12:18.962000"
+  },
+  {
+    "_id": "6a679174e47ad10234a2b7dc",
+    "user_id": "6a677b732d1cc249f0968e1b",
+    "action": "LOGIN_SUCCESS",
+    "details": "User 'cmdr.hayes' logged in",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:12:20.300000"
+  },
+  {
+    "_id": "6a679175e47ad10234a2b7dd",
+    "user_id": "6a677b752d1cc249f0968e1e",
+    "action": "LOGIN_SUCCESS",
+    "details": "User 'sysadmin.chen' logged in",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:12:21.629000"
+  },
+  {
+    "_id": "6a679176e47ad10234a2b7de",
+    "user_id": "analyst.rao",
+    "action": "LOGIN_FAILED",
+    "details": "Invalid credentials",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:12:22.740000"
+  },
+  {
+    "_id": "6a679176e47ad10234a2b7df",
+    "user_id": "ghost.user",
+    "action": "LOGIN_FAILED",
+    "details": "Invalid credentials",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:12:22.764000"
+  },
+  {
+    "_id": "6a679178e47ad10234a2b7e0",
+    "user_id": "analyst.rao",
+    "action": "LOGIN_FAILED",
+    "details": "Invalid credentials",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:12:24.051000"
+  },
+  {
+    "_id": "6a679178e47ad10234a2b7e1",
+    "user_id": "nobody.here",
+    "action": "LOGIN_FAILED",
+    "details": "Invalid credentials",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:12:24.087000"
+  },
+  {
+    "_id": "6a679178e47ad10234a2b7e2",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "AUTHZ_DENIED",
+    "details": "Role 'analyst' attempted GET /api/auth/audit-log",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:12:24.106000"
+  },
+  {
+    "_id": "6a679185e47ad10234a2b7e4",
+    "user_id": "6a679185e47ad10234a2b7e3",
+    "action": "USER_REGISTERED",
+    "details": "New analyst account 'e2e_6389bed3'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:12:37.417000"
+  },
+  {
+    "_id": "6a679186e47ad10234a2b7e7",
+    "user_id": "6a679186e47ad10234a2b7e6",
+    "action": "USER_REGISTERED",
+    "details": "New admin account 'esc6389bed3'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:12:38.623000"
+  },
+  {
+    "_id": "6a679187e47ad10234a2b7e9",
+    "user_id": "6a679187e47ad10234a2b7e8",
+    "action": "USER_REGISTERED",
+    "details": "New analyst account 'uni6389bed3'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:12:39.321000"
+  },
+  {
+    "_id": "6a679187e47ad10234a2b7ea",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "LOGIN_SUCCESS",
+    "details": "User 'analyst.rao' logged in",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:12:39.935000"
+  },
+  {
+    "_id": "6a679188e47ad10234a2b7eb",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "AUTHZ_DENIED",
+    "details": "Role 'analyst' attempted GET /api/auth/audit-log",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:12:40.077000"
+  },
+  {
+    "_id": "6a679195e47ad10234a2b7fa",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "VISION_DETECT",
+    "details": "0 object(s) in 'etc_passwd.png'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:12:53.438000"
+  },
+  {
+    "_id": "6a679196e47ad10234a2b7fc",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "VISION_DETECT",
+    "details": "0 object(s) in 'frame.png'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:12:54.189000"
+  },
+  {
+    "_id": "6a679196e47ad10234a2b7fd",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "REPORT_EXPORTED",
+    "details": "AegisAI_Situation_Report_20260727_171254.pdf",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:12:54.559000"
+  },
+  {
+    "_id": "6a679196e47ad10234a2b7ff",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "REPORT_GENERATED",
+    "details": "",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:12:54.590000"
+  },
+  {
+    "_id": "6a679196e47ad10234a2b800",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "ASSISTANT_QUERY",
+    "details": "Summarise activity",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:12:54.598000"
+  },
+  {
+    "_id": "6a679197e47ad10234a2b804",
+    "user_id": "6a679197e47ad10234a2b801",
+    "action": "USER_REGISTERED",
+    "details": "New analyst account 'race_9a18d6a6'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:12:55.012000"
+  },
+  {
+    "_id": "6a6791afc9a089ad6850283b",
+    "user_id": "seed",
+    "action": "LOGIN_SUCCESS",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.36.110",
+    "timestamp": "2026-07-20T05:09:18.792000"
+  },
+  {
+    "_id": "6a6791afc9a089ad6850283c",
+    "user_id": "seed",
+    "action": "ASSISTANT_QUERY",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.34.128",
+    "timestamp": "2026-07-19T09:46:18.792000"
+  },
+  {
+    "_id": "6a6791afc9a089ad6850283d",
+    "user_id": "seed",
+    "action": "LOGIN_SUCCESS",
+    "details": "Sector Alpha activity",
+    "ip_address": "10.20.32.17",
+    "timestamp": "2026-07-20T00:54:18.792000"
+  },
+  {
+    "_id": "6a6791afc9a089ad6850283e",
+    "user_id": "seed",
+    "action": "LOGIN_SUCCESS",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.15.122",
+    "timestamp": "2026-07-21T14:22:18.792000"
+  },
+  {
+    "_id": "6a6791afc9a089ad6850283f",
+    "user_id": "seed",
+    "action": "VISION_DETECT",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.11.34",
+    "timestamp": "2026-07-22T09:46:18.792000"
+  },
+  {
+    "_id": "6a6791afc9a089ad68502840",
+    "user_id": "seed",
+    "action": "ASSISTANT_QUERY",
+    "details": "Sector Charlie activity",
+    "ip_address": "10.20.8.231",
+    "timestamp": "2026-07-22T22:20:18.792000"
+  },
+  {
+    "_id": "6a6791afc9a089ad68502841",
+    "user_id": "seed",
+    "action": "LOGIN_FAILED",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.33.37",
+    "timestamp": "2026-07-22T16:23:18.792000"
+  },
+  {
+    "_id": "6a6791afc9a089ad68502842",
+    "user_id": "seed",
+    "action": "LOGIN_FAILED",
+    "details": "Sector Alpha activity",
+    "ip_address": "10.20.5.211",
+    "timestamp": "2026-07-22T09:55:18.792000"
+  },
+  {
+    "_id": "6a6791afc9a089ad68502843",
+    "user_id": "seed",
+    "action": "LOGIN_FAILED",
+    "details": "Sector Alpha activity",
+    "ip_address": "10.20.13.81",
+    "timestamp": "2026-07-24T01:40:18.792000"
+  },
+  {
+    "_id": "6a6791afc9a089ad68502844",
+    "user_id": "seed",
+    "action": "VISION_DETECT",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.26.194",
+    "timestamp": "2026-07-24T00:54:18.792000"
+  },
+  {
+    "_id": "6a6791afc9a089ad68502845",
+    "user_id": "seed",
+    "action": "LOGIN_FAILED",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.32.183",
+    "timestamp": "2026-07-25T05:11:18.792000"
+  },
+  {
+    "_id": "6a6791b821b74c609d9bab8b",
+    "user_id": "6a6791b821b74c609d9bab8a",
+    "action": "USER_REGISTERED",
+    "details": "New analyst account 'e2e_944e9383'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:13:28.163000"
+  },
+  {
+    "_id": "6a6791bb21b74c609d9bab8e",
+    "user_id": "6a6791bb21b74c609d9bab8d",
+    "action": "USER_REGISTERED",
+    "details": "New analyst account 'uni944e9383'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:13:31.127000"
+  },
+  {
+    "_id": "6a6791bc21b74c609d9bab8f",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "LOGIN_SUCCESS",
+    "details": "User 'analyst.rao' logged in",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:13:32.450000"
+  },
+  {
+    "_id": "6a6791bd21b74c609d9bab90",
+    "user_id": "6a677b732d1cc249f0968e1b",
+    "action": "LOGIN_SUCCESS",
+    "details": "User 'cmdr.hayes' logged in",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:13:33.880000"
+  },
+  {
+    "_id": "6a6791be21b74c609d9bab91",
+    "user_id": "6a677b752d1cc249f0968e1e",
+    "action": "LOGIN_SUCCESS",
+    "details": "User 'sysadmin.chen' logged in",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:13:34.917000"
+  },
+  {
+    "_id": "6a6791c021b74c609d9bab92",
+    "user_id": "analyst.rao",
+    "action": "LOGIN_FAILED",
+    "details": "Invalid credentials",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:13:36.043000"
+  },
+  {
+    "_id": "6a6791c021b74c609d9bab93",
+    "user_id": "ghost.user",
+    "action": "LOGIN_FAILED",
+    "details": "Invalid credentials",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:13:36.063000"
+  },
+  {
+    "_id": "6a6791c121b74c609d9bab94",
+    "user_id": "analyst.rao",
+    "action": "LOGIN_FAILED",
+    "details": "Invalid credentials",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:13:37.433000"
+  },
+  {
+    "_id": "6a6791c121b74c609d9bab95",
+    "user_id": "nobody.here",
+    "action": "LOGIN_FAILED",
+    "details": "Invalid credentials",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:13:37.470000"
+  },
+  {
+    "_id": "6a6791c121b74c609d9bab96",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "AUTHZ_DENIED",
+    "details": "Role 'analyst' attempted GET /api/auth/audit-log",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:13:37.488000"
+  },
+  {
+    "_id": "6a6791cd21b74c609d9baba5",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "VISION_DETECT",
+    "details": "0 object(s) in 'etc_passwd.png'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:13:49.952000"
+  },
+  {
+    "_id": "6a6791ce21b74c609d9baba7",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "VISION_DETECT",
+    "details": "0 object(s) in 'frame.png'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:13:50.768000"
+  },
+  {
+    "_id": "6a6791ce21b74c609d9baba9",
+    "user_id": "6a6791ce21b74c609d9baba8",
+    "action": "USER_REGISTERED",
+    "details": "New analyst account 'e2e_07c0a870'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:13:50.801000"
+  },
+  {
+    "_id": "6a6791cf21b74c609d9babaa",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "REPORT_EXPORTED",
+    "details": "AegisAI_Situation_Report_20260727_171351.pdf",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:13:51.207000"
+  },
+  {
+    "_id": "6a6791cf21b74c609d9babac",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "REPORT_GENERATED",
+    "details": "",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:13:51.230000"
+  },
+  {
+    "_id": "6a6791cf21b74c609d9babad",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "ASSISTANT_QUERY",
+    "details": "Summarise activity",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:13:51.260000"
+  },
+  {
+    "_id": "6a6791d021b74c609d9babb0",
+    "user_id": "6a6791d021b74c609d9babaf",
+    "action": "USER_REGISTERED",
+    "details": "New analyst account 'race_f2280706'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:13:52.918000"
+  },
+  {
+    "_id": "6a6791d121b74c609d9babb6",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "LOGIN_SUCCESS",
+    "details": "User 'analyst.rao' logged in",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:13:53.332000"
+  },
+  {
+    "_id": "6a6791d121b74c609d9babb7",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "AUTHZ_DENIED",
+    "details": "Role 'analyst' attempted GET /api/auth/audit-log",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:13:53.417000"
+  },
+  {
+    "_id": "6a6791d321b74c609d9babc6",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "VISION_DETECT",
+    "details": "0 object(s) in 'etc_passwd.png'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:13:55.328000"
+  },
+  {
+    "_id": "6a6791d421b74c609d9babc8",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "VISION_DETECT",
+    "details": "0 object(s) in 'frame.png'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:13:56.050000"
+  },
+  {
+    "_id": "6a6791d421b74c609d9babc9",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "REPORT_EXPORTED",
+    "details": "AegisAI_Situation_Report_20260727_171356.pdf",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:13:56.354000"
+  },
+  {
+    "_id": "6a6791d421b74c609d9babcb",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "REPORT_GENERATED",
+    "details": "",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:13:56.396000"
+  },
+  {
+    "_id": "6a6791d421b74c609d9babcc",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "ASSISTANT_QUERY",
+    "details": "Summarise activity",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-27T17:13:56.411000"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fcf",
+    "user_id": "seed",
+    "action": "LOGIN_SUCCESS",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.36.110",
+    "timestamp": "2026-07-21T05:41:29.345000"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fd0",
+    "user_id": "seed",
+    "action": "ASSISTANT_QUERY",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.34.128",
+    "timestamp": "2026-07-20T09:18:29.345000"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fd1",
+    "user_id": "seed",
+    "action": "LOGIN_SUCCESS",
+    "details": "Sector Alpha activity",
+    "ip_address": "10.20.32.17",
+    "timestamp": "2026-07-21T00:26:29.345000"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fd2",
+    "user_id": "seed",
+    "action": "LOGIN_SUCCESS",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.15.122",
+    "timestamp": "2026-07-22T14:54:29.345000"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fd3",
+    "user_id": "seed",
+    "action": "VISION_DETECT",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.11.34",
+    "timestamp": "2026-07-23T09:18:29.345000"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fd4",
+    "user_id": "seed",
+    "action": "ASSISTANT_QUERY",
+    "details": "Sector Charlie activity",
+    "ip_address": "10.20.8.231",
+    "timestamp": "2026-07-23T22:52:29.345000"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fd5",
+    "user_id": "seed",
+    "action": "LOGIN_FAILED",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.33.37",
+    "timestamp": "2026-07-23T16:55:29.345000"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fd6",
+    "user_id": "seed",
+    "action": "LOGIN_FAILED",
+    "details": "Sector Alpha activity",
+    "ip_address": "10.20.5.211",
+    "timestamp": "2026-07-23T09:27:29.345000"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fd7",
+    "user_id": "seed",
+    "action": "LOGIN_FAILED",
+    "details": "Sector Alpha activity",
+    "ip_address": "10.20.13.81",
+    "timestamp": "2026-07-25T01:12:29.345000"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fd8",
+    "user_id": "seed",
+    "action": "VISION_DETECT",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.26.194",
+    "timestamp": "2026-07-25T00:26:29.345000"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fd9",
+    "user_id": "seed",
+    "action": "LOGIN_FAILED",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.32.183",
+    "timestamp": "2026-07-26T05:43:29.345000"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec28",
+    "user_id": "seed",
+    "action": "LOGIN_SUCCESS",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.36.110",
+    "timestamp": "2026-07-21T05:41:54.292000"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec29",
+    "user_id": "seed",
+    "action": "ASSISTANT_QUERY",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.34.128",
+    "timestamp": "2026-07-21T09:18:54.292000"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec2a",
+    "user_id": "seed",
+    "action": "LOGIN_SUCCESS",
+    "details": "Sector Alpha activity",
+    "ip_address": "10.20.32.17",
+    "timestamp": "2026-07-21T00:26:54.292000"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec2b",
+    "user_id": "seed",
+    "action": "LOGIN_SUCCESS",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.15.122",
+    "timestamp": "2026-07-22T14:54:54.292000"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec2c",
+    "user_id": "seed",
+    "action": "VISION_DETECT",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.11.34",
+    "timestamp": "2026-07-23T09:18:54.292000"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec2d",
+    "user_id": "seed",
+    "action": "ASSISTANT_QUERY",
+    "details": "Sector Charlie activity",
+    "ip_address": "10.20.8.231",
+    "timestamp": "2026-07-23T22:52:54.292000"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec2e",
+    "user_id": "seed",
+    "action": "LOGIN_FAILED",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.33.37",
+    "timestamp": "2026-07-23T16:55:54.292000"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec2f",
+    "user_id": "seed",
+    "action": "LOGIN_FAILED",
+    "details": "Sector Alpha activity",
+    "ip_address": "10.20.5.211",
+    "timestamp": "2026-07-23T09:27:54.292000"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec30",
+    "user_id": "seed",
+    "action": "LOGIN_FAILED",
+    "details": "Sector Alpha activity",
+    "ip_address": "10.20.13.81",
+    "timestamp": "2026-07-25T01:12:54.292000"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec31",
+    "user_id": "seed",
+    "action": "VISION_DETECT",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.26.194",
+    "timestamp": "2026-07-25T00:26:54.292000"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec32",
+    "user_id": "seed",
+    "action": "LOGIN_FAILED",
+    "details": "Sector Bravo activity",
+    "ip_address": "10.20.32.183",
+    "timestamp": "2026-07-26T05:43:54.292000"
+  },
+  {
+    "_id": "6a68eb237c6a33f5cf869c0c",
+    "user_id": "6a68eb237c6a33f5cf869c0b",
+    "action": "USER_REGISTERED",
+    "details": "New analyst account 'e2e_c377f29c'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:15.868000"
+  },
+  {
+    "_id": "6a68eb257c6a33f5cf869c0f",
+    "user_id": "6a68eb257c6a33f5cf869c0e",
+    "action": "USER_REGISTERED",
+    "details": "New analyst account 'unic377f29c'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:17.726000"
+  },
+  {
+    "_id": "6a68eb277c6a33f5cf869c10",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "LOGIN_SUCCESS",
+    "details": "User 'analyst.rao' logged in",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:19.095000"
+  },
+  {
+    "_id": "6a68eb287c6a33f5cf869c11",
+    "user_id": "6a677b732d1cc249f0968e1b",
+    "action": "LOGIN_SUCCESS",
+    "details": "User 'cmdr.hayes' logged in",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:20.480000"
+  },
+  {
+    "_id": "6a68eb297c6a33f5cf869c12",
+    "user_id": "6a677b752d1cc249f0968e1e",
+    "action": "LOGIN_SUCCESS",
+    "details": "User 'sysadmin.chen' logged in",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:21.624000"
+  },
+  {
+    "_id": "6a68eb2a7c6a33f5cf869c13",
+    "user_id": "analyst.rao",
+    "action": "LOGIN_FAILED",
+    "details": "Invalid credentials",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:22.794000"
+  },
+  {
+    "_id": "6a68eb2a7c6a33f5cf869c14",
+    "user_id": "ghost.user",
+    "action": "LOGIN_FAILED",
+    "details": "Invalid credentials",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:22.821000"
+  },
+  {
+    "_id": "6a68eb2c7c6a33f5cf869c15",
+    "user_id": "analyst.rao",
+    "action": "LOGIN_FAILED",
+    "details": "Invalid credentials",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:24.106000"
+  },
+  {
+    "_id": "6a68eb2c7c6a33f5cf869c16",
+    "user_id": "nobody.here",
+    "action": "LOGIN_FAILED",
+    "details": "Invalid credentials",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:24.139000"
+  },
+  {
+    "_id": "6a68eb2c7c6a33f5cf869c17",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "AUTHZ_DENIED",
+    "details": "Role 'analyst' attempted GET /api/auth/audit-log",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:24.151000"
+  },
+  {
+    "_id": "6a68eb347c6a33f5cf869c26",
+    "user_id": "6a68eb347c6a33f5cf869c25",
+    "action": "USER_REGISTERED",
+    "details": "New analyst account 'e2e_46c5fd17'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:32.451000"
+  },
+  {
+    "_id": "6a68eb377c6a33f5cf869c29",
+    "user_id": "6a68eb377c6a33f5cf869c28",
+    "action": "USER_REGISTERED",
+    "details": "New analyst account 'uni46c5fd17'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:35.303000"
+  },
+  {
+    "_id": "6a68eb387c6a33f5cf869c2a",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "LOGIN_SUCCESS",
+    "details": "User 'analyst.rao' logged in",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:36.629000"
+  },
+  {
+    "_id": "6a68eb387c6a33f5cf869c2b",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "AUTHZ_DENIED",
+    "details": "Role 'analyst' attempted GET /api/auth/audit-log",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:36.872000"
+  },
+  {
+    "_id": "6a68eb397c6a33f5cf869c37",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "VISION_DETECT",
+    "details": "0 object(s) in 'etc_passwd.png'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:37.713000"
+  },
+  {
+    "_id": "6a68eb3a7c6a33f5cf869c3c",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "VISION_DETECT",
+    "details": "0 object(s) in 'frame.png'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:38.533000"
+  },
+  {
+    "_id": "6a68eb3b7c6a33f5cf869c3d",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "REPORT_EXPORTED",
+    "details": "AegisAI_Situation_Report_20260728_174739.pdf",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:39.055000"
+  },
+  {
+    "_id": "6a68eb3b7c6a33f5cf869c3f",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "REPORT_GENERATED",
+    "details": "",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:39.075000"
+  },
+  {
+    "_id": "6a68eb3b7c6a33f5cf869c40",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "ASSISTANT_QUERY",
+    "details": "Summarise activity",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:39.092000"
+  },
+  {
+    "_id": "6a68eb3b7c6a33f5cf869c42",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "VISION_DETECT",
+    "details": "0 object(s) in 'etc_passwd.png'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:39.631000"
+  },
+  {
+    "_id": "6a68eb3c7c6a33f5cf869c44",
+    "user_id": "6a68eb3c7c6a33f5cf869c43",
+    "action": "USER_REGISTERED",
+    "details": "New analyst account 'race_8058c3eb'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:40.739000"
+  },
+  {
+    "_id": "6a68eb3d7c6a33f5cf869c49",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "VISION_DETECT",
+    "details": "0 object(s) in 'frame.png'",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:41.112000"
+  },
+  {
+    "_id": "6a68eb3d7c6a33f5cf869c4a",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "REPORT_EXPORTED",
+    "details": "AegisAI_Situation_Report_20260728_174741.pdf",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:41.469000"
+  },
+  {
+    "_id": "6a68eb3d7c6a33f5cf869c4c",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "REPORT_GENERATED",
+    "details": "",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:41.520000"
+  },
+  {
+    "_id": "6a68eb3d7c6a33f5cf869c4d",
+    "user_id": "6a677b742d1cc249f0968e1c",
+    "action": "ASSISTANT_QUERY",
+    "details": "Summarise activity",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:47:41.549000"
+  },
+  {
+    "_id": "6a68eb787c6a33f5cf869c4e",
+    "user_id": "6a678aa05cb2e145b2bb613b",
+    "action": "LOGIN_SUCCESS",
+    "details": "User 'Rachith000bharadwaj' logged in",
+    "ip_address": "127.0.0.1",
+    "timestamp": "2026-07-28T17:48:40.486000"
+  }
+]

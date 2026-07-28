@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "6a678eeb4c3f029a1bcc163f",
+    "report": "### 🛡️ AegisAI Tactical Intelligence Assessment\n\n**Retrieved Sensor Telemetry & Database Analysis**:\n- PREDICTION: Tank in Desert terrain at 0.66km from border. Weather Snow, Evening. Threat CRITICAL (score 99.0).\n- PREDICTION: Soldier in Urban terrain at 12.39km from border. Weather Clear, Afternoon. Threat MEDIUM (score 48.65).\n- PREDICTION: Soldier in Forest terrain at 3.1km from border. Weather Fog, Night. Threat HIGH (score 71.14).\n- PREDICTION: Soldier in Urban terrain at 12.27km from border. Weather Fog, Night. Threat HIGH (score 60.15).\n- PREDICTION: Truck in Urban terrain at 16.13km from border. Weather Fog, Night. Threat MEDIUM (score 54.46).\n- DETECTION: 1 object(s): Truck (71.77%).\n- DETECTION: 2 object(s): Truck (92.49%), Soldier (62.96%).\n- DETECTION: 4 object(s): Tank (93.62%), Soldier (91.2%), Soldier (88.07%), Tank (60.98%).\n- DETECTION: 1 object(s): Soldier (68.9%).\n- DETECTION: 4 object(s): Truck (94.32%), Soldier (81.53%), Truck (56.4%), Tank (56.2%).\n\n**Operational Assessment**: Threat scoring telemetry has been evaluated across active border sectors. All sensor feeds remain under automated surveillance monitoring with decision-support protocols active.",
+    "online": true,
+    "model": "AegisAI Decision Engine",
+    "generated_by": "6a678aa05cb2e145b2bb613b",
+    "created_at": "2026-07-27T17:01:31.689000",
+    "status": "generated"
+  },
+  {
+    "_id": "6a679196e47ad10234a2b7fe",
+    "report": "### 🛡️ AegisAI Tactical Intelligence Assessment\n\n**Retrieved Sensor Telemetry & Database Analysis**:\n- PREDICTION: Tank in Mountain terrain at 10.0km from border. Weather Clear, Morning. Threat HIGH (score 66.02).\n- PREDICTION: Tank in Forest terrain at 10.0km from border. Weather Clear, Morning. Threat HIGH (score 69.76).\n- PREDICTION: Tank in Urban terrain at 10.0km from border. Weather Clear, Morning. Threat HIGH (score 69.77).\n- PREDICTION: Tank in Desert terrain at 10.0km from border. Weather Clear, Morning. Threat CRITICAL (score 80.74).\n- PREDICTION: Tank in Urban terrain at 10.0km from border. Weather Clear, Morning. Threat HIGH (score 60.58).\n- DETECTION: 0 object(s): no objects above threshold.\n- DETECTION: 0 object(s): no objects above threshold.\n- DETECTION: 1 object(s): Truck (71.77%).\n- DETECTION: 2 object(s): Truck (92.49%), Soldier (62.96%).\n- DETECTION: 4 object(s): Tank (93.62%), Soldier (91.2%), Soldier (88.07%), Tank (60.98%).\n\n**Operational Assessment**: Threat scoring telemetry has been evaluated across active border sectors. All sensor feeds remain under automated surveillance monitoring with decision-support protocols active.",
+    "online": true,
+    "model": "AegisAI Decision Engine",
+    "generated_by": "6a677b742d1cc249f0968e1c",
+    "created_at": "2026-07-27T17:12:54.589000",
+    "status": "generated"
+  },
+  {
+    "_id": "6a6791cf21b74c609d9babab",
+    "report": "### 🛡️ AegisAI Tactical Intelligence Assessment\n\n**Retrieved Sensor Telemetry & Database Analysis**:\n- PREDICTION: Tank in Mountain terrain at 10.0km from border. Weather Clear, Morning. Threat HIGH (score 66.02).\n- PREDICTION: Tank in Forest terrain at 10.0km from border. Weather Clear, Morning. Threat HIGH (score 69.76).\n- PREDICTION: Tank in Urban terrain at 10.0km from border. Weather Clear, Morning. Threat HIGH (score 69.77).\n- PREDICTION: Tank in Desert terrain at 10.0km from border. Weather Clear, Morning. Threat CRITICAL (score 80.74).\n- PREDICTION: Tank in Urban terrain at 10.0km from border. Weather Clear, Morning. Threat HIGH (score 60.58).\n- DETECTION: 0 object(s): no objects above threshold.\n- DETECTION: 0 object(s): no objects above threshold.\n- DETECTION: 0 object(s): no objects above threshold.\n- DETECTION: 0 object(s): no objects above threshold.\n- DETECTION: 1 object(s): Truck (71.77%).\n\n**Operational Assessment**: Threat scoring telemetry has been evaluated across active border sectors. All sensor feeds remain under automated surveillance monitoring with decision-support protocols active.",
+    "online": true,
+    "model": "AegisAI Decision Engine",
+    "generated_by": "6a677b742d1cc249f0968e1c",
+    "created_at": "2026-07-27T17:13:51.228000",
+    "status": "generated"
+  },
+  {
+    "_id": "6a6791d421b74c609d9babca",
+    "report": "### 🛡️ AegisAI Tactical Intelligence Assessment\n\n**Retrieved Sensor Telemetry & Database Analysis**:\n- PREDICTION: Tank in Mountain terrain at 10.0km from border. Weather Clear, Morning. Threat HIGH (score 66.02).\n- PREDICTION: Tank in Forest terrain at 10.0km from border. Weather Clear, Morning. Threat HIGH (score 69.76).\n- PREDICTION: Tank in Urban terrain at 10.0km from border. Weather Clear, Morning. Threat HIGH (score 69.77).\n- PREDICTION: Tank in Desert terrain at 10.0km from border. Weather Clear, Morning. Threat CRITICAL (score 80.74).\n- PREDICTION: Tank in Urban terrain at 10.0km from border. Weather Clear, Morning. Threat HIGH (score 60.58).\n- DETECTION: 0 object(s): no objects above threshold.\n- DETECTION: 0 object(s): no objects above threshold.\n- DETECTION: 0 object(s): no objects above threshold.\n- DETECTION: 0 object(s): no objects above threshold.\n- DETECTION: 0 object(s): no objects above threshold.\n\n**Operational Assessment**: Threat scoring telemetry has been evaluated across active border sectors. All sensor feeds remain under automated surveillance monitoring with decision-support protocols active.",
+    "online": true,
+    "model": "AegisAI Decision Engine",
+    "generated_by": "6a677b742d1cc249f0968e1c",
+    "created_at": "2026-07-27T17:13:56.394000",
+    "status": "generated"
+  },
+  {
+    "_id": "6a68eb3b7c6a33f5cf869c3e",
+    "report": "### 🛡️ AegisAI Tactical Intelligence Assessment\n\n**Retrieved Sensor Telemetry & Database Analysis**:\n- PREDICTION: Tank in Mountain terrain at 10.0km from border. Weather Clear, Morning. Threat HIGH (score 66.02).\n- PREDICTION: Tank in Forest terrain at 10.0km from border. Weather Clear, Morning. Threat HIGH (score 69.76).\n- PREDICTION: Tank in Urban terrain at 10.0km from border. Weather Clear, Morning. Threat HIGH (score 69.77).\n- PREDICTION: Tank in Desert terrain at 10.0km from border. Weather Clear, Morning. Threat CRITICAL (score 80.74).\n- PREDICTION: Tank in Urban terrain at 10.0km from border. Weather Clear, Morning. Threat HIGH (score 60.58).\n- DETECTION: 0 object(s): no objects above threshold.\n- DETECTION: 0 object(s): no objects above threshold.\n- DETECTION: 0 object(s): no objects above threshold.\n- DETECTION: 0 object(s): no objects above threshold.\n- DETECTION: 0 object(s): no objects above threshold.\n\n**Operational Assessment**: Threat scoring telemetry has been evaluated across active border sectors. All sensor feeds remain under automated surveillance monitoring with decision-support protocols active.",
+    "online": true,
+    "model": "AegisAI Decision Engine",
+    "generated_by": "6a677b742d1cc249f0968e1c",
+    "created_at": "2026-07-28T17:47:39.073000",
+    "status": "generated"
+  },
+  {
+    "_id": "6a68eb3d7c6a33f5cf869c4b",
+    "report": "### 🛡️ AegisAI Tactical Intelligence Assessment\n\n**Retrieved Sensor Telemetry & Database Analysis**:\n- PREDICTION: Tank in Mountain terrain at 10.0km from border. Weather Clear, Morning. Threat HIGH (score 66.02).\n- PREDICTION: Tank in Forest terrain at 10.0km from border. Weather Clear, Morning. Threat HIGH (score 69.76).\n- PREDICTION: Tank in Urban terrain at 10.0km from border. Weather Clear, Morning. Threat HIGH (score 69.77).\n- PREDICTION: Tank in Desert terrain at 10.0km from border. Weather Clear, Morning. Threat CRITICAL (score 80.74).\n- PREDICTION: Tank in Urban terrain at 10.0km from border. Weather Clear, Morning. Threat HIGH (score 60.58).\n- DETECTION: 0 object(s): no objects above threshold.\n- DETECTION: 0 object(s): no objects above threshold.\n- DETECTION: 0 object(s): no objects above threshold.\n- DETECTION: 0 object(s): no objects above threshold.\n- DETECTION: 0 object(s): no objects above threshold.\n\n**Operational Assessment**: Threat scoring telemetry has been evaluated across active border sectors. All sensor feeds remain under automated surveillance monitoring with decision-support protocols active.",
+    "online": true,
+    "model": "AegisAI Decision Engine",
+    "generated_by": "6a677b742d1cc249f0968e1c",
+    "created_at": "2026-07-28T17:47:41.506000",
+    "status": "generated"
+  }
+]

@@ -1,0 +1,3392 @@
+[
+  {
+    "_id": "6a677b762d1cc249f0968e54",
+    "original_filename": "thermal_bravo_ridge.png",
+    "detections": [
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 88.9,
+        "bbox": {
+          "x1": 44.7604,
+          "y1": 110.183,
+          "x2": 510.584,
+          "y2": 609.5418
+        },
+        "detected_at": "2026-07-20T21:15:29.312000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 79.01,
+        "bbox": {
+          "x1": 29.9179,
+          "y1": 109.7947,
+          "x2": 493.5996,
+          "y2": 446.635
+        },
+        "detected_at": "2026-07-20T21:15:29.312000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 78.42,
+        "bbox": {
+          "x1": 57.5742,
+          "y1": 87.5375,
+          "x2": 530.9066,
+          "y2": 532.8737
+        },
+        "detected_at": "2026-07-20T21:15:29.312000"
+      },
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 60.91,
+        "bbox": {
+          "x1": 43.5584,
+          "y1": 125.5267,
+          "x2": 555.8703,
+          "y2": 456.1453
+        },
+        "detected_at": "2026-07-20T21:15:29.312000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 4,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-20T21:15:29.312000",
+    "status": "confirmed"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e55",
+    "original_filename": "checkpoint_delta_gate.jpg",
+    "detections": [
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 78.7,
+        "bbox": {
+          "x1": 156.2474,
+          "y1": 150.2153,
+          "x2": 531.9907,
+          "y2": 597.4081
+        },
+        "detected_at": "2026-07-19T14:47:29.312000"
+      },
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 60.3,
+        "bbox": {
+          "x1": 69.523,
+          "y1": 140.3709,
+          "x2": 569.1413,
+          "y2": 436.1163
+        },
+        "detected_at": "2026-07-19T14:47:29.312000"
+      },
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 55.93,
+        "bbox": {
+          "x1": 112.3391,
+          "y1": 100.2487,
+          "x2": 388.103,
+          "y2": 431.7909
+        },
+        "detected_at": "2026-07-19T14:47:29.312000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 3,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-19T14:47:29.312000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e56",
+    "original_filename": "patrol_alpha_convoy.jpg",
+    "detections": [
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 93.91,
+        "bbox": {
+          "x1": 142.7475,
+          "y1": 82.6568,
+          "x2": 409.9086,
+          "y2": 495.2459
+        },
+        "detected_at": "2026-07-20T08:47:29.312000"
+      },
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 61.65,
+        "bbox": {
+          "x1": 88.0107,
+          "y1": 79.4636,
+          "x2": 360.056,
+          "y2": 450.253
+        },
+        "detected_at": "2026-07-20T08:47:29.312000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 2,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-20T08:47:29.312000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e57",
+    "original_filename": "patrol_alpha_convoy.jpg",
+    "detections": [
+      {
+        "object": "UAV",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 87.39,
+        "bbox": {
+          "x1": 114.448,
+          "y1": 104.8561,
+          "x2": 505.2334,
+          "y2": 488.8562
+        },
+        "detected_at": "2026-07-21T05:04:29.312000"
+      },
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 85.33,
+        "bbox": {
+          "x1": 65.3479,
+          "y1": 163.175,
+          "x2": 445.335,
+          "y2": 425.796
+        },
+        "detected_at": "2026-07-21T05:04:29.312000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 2,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-21T05:04:29.312000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e58",
+    "original_filename": "thermal_bravo_ridge.png",
+    "detections": [
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 95.45,
+        "bbox": {
+          "x1": 58.9611,
+          "y1": 227.3032,
+          "x2": 366.7185,
+          "y2": 462.556
+        },
+        "detected_at": "2026-07-22T02:47:29.312000"
+      },
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 55.58,
+        "bbox": {
+          "x1": 214.178,
+          "y1": 186.9414,
+          "x2": 486.3795,
+          "y2": 606.725
+        },
+        "detected_at": "2026-07-22T02:47:29.312000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 2,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-22T02:47:29.312000",
+    "status": "confirmed"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e59",
+    "original_filename": "thermal_bravo_ridge.png",
+    "detections": [
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 57.53,
+        "bbox": {
+          "x1": 156.4663,
+          "y1": 165.5307,
+          "x2": 475.7969,
+          "y2": 575.298
+        },
+        "detected_at": "2026-07-21T11:06:29.312000"
+      }
+    ],
+    "unmapped_detections": [
+      {
+        "source_class": "bird",
+        "confidence": 49.78
+      }
+    ],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-21T11:06:29.312000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e5a",
+    "original_filename": "drone_sweep_charlie.jpg",
+    "detections": [
+      {
+        "object": "UAV",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 95.58,
+        "bbox": {
+          "x1": 186.4889,
+          "y1": 99.0639,
+          "x2": 463.5652,
+          "y2": 523.121
+        },
+        "detected_at": "2026-07-21T23:56:29.312000"
+      },
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 73.06,
+        "bbox": {
+          "x1": 23.6164,
+          "y1": 129.6696,
+          "x2": 509.7425,
+          "y2": 522.4525
+        },
+        "detected_at": "2026-07-21T23:56:29.312000"
+      },
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 72.27,
+        "bbox": {
+          "x1": 91.323,
+          "y1": 86.5949,
+          "x2": 447.8286,
+          "y2": 487.5959
+        },
+        "detected_at": "2026-07-21T23:56:29.312000"
+      },
+      {
+        "object": "UAV",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 59.63,
+        "bbox": {
+          "x1": 203.7096,
+          "y1": 111.1397,
+          "x2": 570.3341,
+          "y2": 436.8123
+        },
+        "detected_at": "2026-07-21T23:56:29.312000"
+      }
+    ],
+    "unmapped_detections": [
+      {
+        "source_class": "bird",
+        "confidence": 64.47
+      }
+    ],
+    "total_objects": 4,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-21T23:56:29.312000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e5b",
+    "original_filename": "drone_sweep_charlie.jpg",
+    "detections": [
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 62.52,
+        "bbox": {
+          "x1": 199.057,
+          "y1": 118.4062,
+          "x2": 364.0396,
+          "y2": 437.7132
+        },
+        "detected_at": "2026-07-21T21:46:29.312000"
+      }
+    ],
+    "unmapped_detections": [
+      {
+        "source_class": "bird",
+        "confidence": 66.41
+      }
+    ],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-21T21:46:29.312000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e5c",
+    "original_filename": "patrol_alpha_convoy.jpg",
+    "detections": [
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 94.78,
+        "bbox": {
+          "x1": 81.5566,
+          "y1": 108.7326,
+          "x2": 415.0959,
+          "y2": 459.7249
+        },
+        "detected_at": "2026-07-22T02:58:29.312000"
+      },
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 59.36,
+        "bbox": {
+          "x1": 183.784,
+          "y1": 147.792,
+          "x2": 478.8004,
+          "y2": 586.9228
+        },
+        "detected_at": "2026-07-22T02:58:29.312000"
+      },
+      {
+        "object": "UAV",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 55.63,
+        "bbox": {
+          "x1": 166.6161,
+          "y1": 169.1888,
+          "x2": 405.4696,
+          "y2": 514.9521
+        },
+        "detected_at": "2026-07-22T02:58:29.312000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 3,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-22T02:58:29.312000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e5d",
+    "original_filename": "drone_sweep_charlie.jpg",
+    "detections": [
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 65.83,
+        "bbox": {
+          "x1": 37.9507,
+          "y1": 141.912,
+          "x2": 370.0001,
+          "y2": 424.4988
+        },
+        "detected_at": "2026-07-23T23:25:29.312000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-23T23:25:29.312000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e5e",
+    "original_filename": "thermal_bravo_ridge.png",
+    "detections": [
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 74.78,
+        "bbox": {
+          "x1": 117.1596,
+          "y1": 245.0516,
+          "x2": 383.8846,
+          "y2": 463.5387
+        },
+        "detected_at": "2026-07-22T09:20:29.312000"
+      },
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 66.93,
+        "bbox": {
+          "x1": 123.3071,
+          "y1": 153.6393,
+          "x2": 471.9214,
+          "y2": 443.7006
+        },
+        "detected_at": "2026-07-22T09:20:29.312000"
+      }
+    ],
+    "unmapped_detections": [
+      {
+        "source_class": "bird",
+        "confidence": 69.45
+      }
+    ],
+    "total_objects": 2,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-22T09:20:29.312000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e5f",
+    "original_filename": "uav_feed_alpha_0412.jpg",
+    "detections": [
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 93.95,
+        "bbox": {
+          "x1": 156.3176,
+          "y1": 142.9755,
+          "x2": 534.5239,
+          "y2": 503.2362
+        },
+        "detected_at": "2026-07-23T23:25:29.312000"
+      },
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 83.84,
+        "bbox": {
+          "x1": 66.2767,
+          "y1": 231.587,
+          "x2": 476.6738,
+          "y2": 424.9669
+        },
+        "detected_at": "2026-07-23T23:25:29.312000"
+      },
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 67.96,
+        "bbox": {
+          "x1": 188.0462,
+          "y1": 70.3134,
+          "x2": 540.1762,
+          "y2": 587.8222
+        },
+        "detected_at": "2026-07-23T23:25:29.312000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 3,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-23T23:25:29.312000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e60",
+    "original_filename": "tower_cam_bravo_night.png",
+    "detections": [
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 93.36,
+        "bbox": {
+          "x1": 69.8649,
+          "y1": 117.831,
+          "x2": 482.6311,
+          "y2": 457.9698
+        },
+        "detected_at": "2026-07-23T03:13:29.312000"
+      },
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 87.19,
+        "bbox": {
+          "x1": 105.5495,
+          "y1": 75.222,
+          "x2": 542.7973,
+          "y2": 500.0083
+        },
+        "detected_at": "2026-07-23T03:13:29.312000"
+      },
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 77.52,
+        "bbox": {
+          "x1": 163.9145,
+          "y1": 78.9057,
+          "x2": 535.7646,
+          "y2": 510.1721
+        },
+        "detected_at": "2026-07-23T03:13:29.312000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 3,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-23T03:13:29.312000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e61",
+    "original_filename": "patrol_alpha_convoy.jpg",
+    "detections": [
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 88.18,
+        "bbox": {
+          "x1": 60.4284,
+          "y1": 73.6147,
+          "x2": 568.9477,
+          "y2": 496.5676
+        },
+        "detected_at": "2026-07-23T02:17:29.312000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 82.42,
+        "bbox": {
+          "x1": 43.9485,
+          "y1": 185.7769,
+          "x2": 378.0409,
+          "y2": 520.121
+        },
+        "detected_at": "2026-07-23T02:17:29.312000"
+      },
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 77.57,
+        "bbox": {
+          "x1": 110.5972,
+          "y1": 129.9102,
+          "x2": 542.2195,
+          "y2": 505.4846
+        },
+        "detected_at": "2026-07-23T02:17:29.312000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 62.89,
+        "bbox": {
+          "x1": 38.1429,
+          "y1": 131.5519,
+          "x2": 381.8626,
+          "y2": 467.8253
+        },
+        "detected_at": "2026-07-23T02:17:29.312000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 4,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-23T02:17:29.312000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e62",
+    "original_filename": "drone_sweep_charlie.jpg",
+    "detections": [
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 94.32,
+        "bbox": {
+          "x1": 148.9151,
+          "y1": 229.0793,
+          "x2": 474.073,
+          "y2": 466.9536
+        },
+        "detected_at": "2026-07-24T01:05:29.312000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 81.53,
+        "bbox": {
+          "x1": 36.2184,
+          "y1": 111.0113,
+          "x2": 461.8374,
+          "y2": 494.0436
+        },
+        "detected_at": "2026-07-24T01:05:29.312000"
+      },
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 56.4,
+        "bbox": {
+          "x1": 87.6103,
+          "y1": 145.7002,
+          "x2": 523.816,
+          "y2": 459.6159
+        },
+        "detected_at": "2026-07-24T01:05:29.312000"
+      },
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 56.2,
+        "bbox": {
+          "x1": 102.362,
+          "y1": 186.937,
+          "x2": 373.2741,
+          "y2": 458.823
+        },
+        "detected_at": "2026-07-24T01:05:29.312000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 4,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-24T01:05:29.312000",
+    "status": "confirmed"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e63",
+    "original_filename": "patrol_alpha_convoy.jpg",
+    "detections": [
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 68.9,
+        "bbox": {
+          "x1": 74.4629,
+          "y1": 242.3841,
+          "x2": 508.0748,
+          "y2": 472.4345
+        },
+        "detected_at": "2026-07-24T03:49:29.312000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-24T03:49:29.312000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e64",
+    "original_filename": "patrol_alpha_convoy.jpg",
+    "detections": [
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 92.49,
+        "bbox": {
+          "x1": 28.0724,
+          "y1": 122.8619,
+          "x2": 388.612,
+          "y2": 457.9146
+        },
+        "detected_at": "2026-07-26T03:06:29.312000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 62.96,
+        "bbox": {
+          "x1": 35.0233,
+          "y1": 162.2804,
+          "x2": 402.6622,
+          "y2": 540.6084
+        },
+        "detected_at": "2026-07-26T03:06:29.312000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 2,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-26T03:06:29.312000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e65",
+    "original_filename": "checkpoint_delta_gate.jpg",
+    "detections": [
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 71.77,
+        "bbox": {
+          "x1": 94.3618,
+          "y1": 181.7825,
+          "x2": 378.7043,
+          "y2": 426.2933
+        },
+        "detected_at": "2026-07-26T03:17:29.312000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-26T03:17:29.312000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a677b762d1cc249f0968e66",
+    "original_filename": "checkpoint_delta_gate.jpg",
+    "detections": [
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 93.62,
+        "bbox": {
+          "x1": 106.8328,
+          "y1": 98.182,
+          "x2": 387.2494,
+          "y2": 438.0976
+        },
+        "detected_at": "2026-07-25T04:42:29.312000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 91.2,
+        "bbox": {
+          "x1": 112.1812,
+          "y1": 99.258,
+          "x2": 363.5602,
+          "y2": 530.3096
+        },
+        "detected_at": "2026-07-25T04:42:29.312000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 88.07,
+        "bbox": {
+          "x1": 99.3438,
+          "y1": 173.1156,
+          "x2": 582.5346,
+          "y2": 567.4498
+        },
+        "detected_at": "2026-07-25T04:42:29.312000"
+      },
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 60.98,
+        "bbox": {
+          "x1": 76.659,
+          "y1": 163.8086,
+          "x2": 582.1199,
+          "y2": 441.7586
+        },
+        "detected_at": "2026-07-25T04:42:29.312000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 4,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-25T04:42:29.312000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a679195e47ad10234a2b7f9",
+    "original_filename": "etc_passwd.png",
+    "detections": [],
+    "unmapped_detections": [],
+    "total_objects": 0,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "6a677b742d1cc249f0968e1c",
+    "created_at": "2026-07-27T17:12:53.435000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a679196e47ad10234a2b7fb",
+    "original_filename": "frame.png",
+    "detections": [],
+    "unmapped_detections": [],
+    "total_objects": 0,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "6a677b742d1cc249f0968e1c",
+    "created_at": "2026-07-27T17:12:54.186000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a6791afc9a089ad68502828",
+    "original_filename": "patrol_alpha_convoy.jpg",
+    "detections": [
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 80.0,
+        "bbox": {
+          "x1": 83.7223,
+          "y1": 92.5885,
+          "x2": 566.2085,
+          "y2": 610.0448
+        },
+        "detected_at": "2026-07-21T22:28:18.792000"
+      },
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 74.88,
+        "bbox": {
+          "x1": 137.8247,
+          "y1": 117.2944,
+          "x2": 360.9825,
+          "y2": 503.7893
+        },
+        "detected_at": "2026-07-21T22:28:18.792000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 2,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-21T22:28:18.792000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a6791afc9a089ad68502829",
+    "original_filename": "tower_cam_bravo_night.png",
+    "detections": [
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 55.01,
+        "bbox": {
+          "x1": 50.253,
+          "y1": 88.2636,
+          "x2": 447.2664,
+          "y2": 425.1002
+        },
+        "detected_at": "2026-07-21T05:07:18.792000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-21T05:07:18.792000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a6791afc9a089ad6850282a",
+    "original_filename": "tower_cam_bravo_night.png",
+    "detections": [
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 90.4,
+        "bbox": {
+          "x1": 159.2394,
+          "y1": 117.0007,
+          "x2": 448.008,
+          "y2": 453.4084
+        },
+        "detected_at": "2026-07-21T14:06:18.792000"
+      },
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 69.83,
+        "bbox": {
+          "x1": 158.0135,
+          "y1": 234.5462,
+          "x2": 541.9543,
+          "y2": 479.6179
+        },
+        "detected_at": "2026-07-21T14:06:18.792000"
+      },
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 65.86,
+        "bbox": {
+          "x1": 185.7711,
+          "y1": 99.0589,
+          "x2": 365.543,
+          "y2": 610.1971
+        },
+        "detected_at": "2026-07-21T14:06:18.792000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 3,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-21T14:06:18.792000",
+    "status": "confirmed"
+  },
+  {
+    "_id": "6a6791afc9a089ad6850282b",
+    "original_filename": "patrol_alpha_convoy.jpg",
+    "detections": [
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 74.36,
+        "bbox": {
+          "x1": 58.729,
+          "y1": 178.925,
+          "x2": 442.6274,
+          "y2": 581.7131
+        },
+        "detected_at": "2026-07-21T14:22:18.792000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-21T14:22:18.792000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a6791afc9a089ad6850282c",
+    "original_filename": "thermal_bravo_ridge.png",
+    "detections": [
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 95.45,
+        "bbox": {
+          "x1": 58.9611,
+          "y1": 227.3032,
+          "x2": 366.7185,
+          "y2": 462.556
+        },
+        "detected_at": "2026-07-22T02:22:18.792000"
+      },
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 55.58,
+        "bbox": {
+          "x1": 214.178,
+          "y1": 186.9414,
+          "x2": 486.3795,
+          "y2": 606.725
+        },
+        "detected_at": "2026-07-22T02:22:18.792000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 2,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-22T02:22:18.792000",
+    "status": "confirmed"
+  },
+  {
+    "_id": "6a6791afc9a089ad6850282d",
+    "original_filename": "thermal_bravo_ridge.png",
+    "detections": [
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 57.53,
+        "bbox": {
+          "x1": 156.4663,
+          "y1": 165.5307,
+          "x2": 475.7969,
+          "y2": 575.298
+        },
+        "detected_at": "2026-07-22T11:41:18.792000"
+      }
+    ],
+    "unmapped_detections": [
+      {
+        "source_class": "bird",
+        "confidence": 49.78
+      }
+    ],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-22T11:41:18.792000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a6791afc9a089ad6850282e",
+    "original_filename": "drone_sweep_charlie.jpg",
+    "detections": [
+      {
+        "object": "UAV",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 95.58,
+        "bbox": {
+          "x1": 186.4889,
+          "y1": 99.0639,
+          "x2": 463.5652,
+          "y2": 523.121
+        },
+        "detected_at": "2026-07-21T23:31:18.792000"
+      },
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 73.06,
+        "bbox": {
+          "x1": 23.6164,
+          "y1": 129.6696,
+          "x2": 509.7425,
+          "y2": 522.4525
+        },
+        "detected_at": "2026-07-21T23:31:18.792000"
+      },
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 72.27,
+        "bbox": {
+          "x1": 91.323,
+          "y1": 86.5949,
+          "x2": 447.8286,
+          "y2": 487.5959
+        },
+        "detected_at": "2026-07-21T23:31:18.792000"
+      },
+      {
+        "object": "UAV",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 59.63,
+        "bbox": {
+          "x1": 203.7096,
+          "y1": 111.1397,
+          "x2": 570.3341,
+          "y2": 436.8123
+        },
+        "detected_at": "2026-07-21T23:31:18.792000"
+      }
+    ],
+    "unmapped_detections": [
+      {
+        "source_class": "bird",
+        "confidence": 64.47
+      }
+    ],
+    "total_objects": 4,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-21T23:31:18.792000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a6791afc9a089ad6850282f",
+    "original_filename": "drone_sweep_charlie.jpg",
+    "detections": [
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 62.52,
+        "bbox": {
+          "x1": 199.057,
+          "y1": 118.4062,
+          "x2": 364.0396,
+          "y2": 437.7132
+        },
+        "detected_at": "2026-07-21T21:21:18.792000"
+      }
+    ],
+    "unmapped_detections": [
+      {
+        "source_class": "bird",
+        "confidence": 66.41
+      }
+    ],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-21T21:21:18.792000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a6791afc9a089ad68502830",
+    "original_filename": "patrol_alpha_convoy.jpg",
+    "detections": [
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 94.78,
+        "bbox": {
+          "x1": 81.5566,
+          "y1": 108.7326,
+          "x2": 415.0959,
+          "y2": 459.7249
+        },
+        "detected_at": "2026-07-22T02:33:18.792000"
+      },
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 59.36,
+        "bbox": {
+          "x1": 183.784,
+          "y1": 147.792,
+          "x2": 478.8004,
+          "y2": 586.9228
+        },
+        "detected_at": "2026-07-22T02:33:18.792000"
+      },
+      {
+        "object": "UAV",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 55.63,
+        "bbox": {
+          "x1": 166.6161,
+          "y1": 169.1888,
+          "x2": 405.4696,
+          "y2": 514.9521
+        },
+        "detected_at": "2026-07-22T02:33:18.792000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 3,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-22T02:33:18.792000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a6791afc9a089ad68502831",
+    "original_filename": "drone_sweep_charlie.jpg",
+    "detections": [
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 65.83,
+        "bbox": {
+          "x1": 37.9507,
+          "y1": 141.912,
+          "x2": 370.0001,
+          "y2": 424.4988
+        },
+        "detected_at": "2026-07-23T23:00:18.792000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-23T23:00:18.792000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a6791afc9a089ad68502832",
+    "original_filename": "thermal_bravo_ridge.png",
+    "detections": [
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 74.78,
+        "bbox": {
+          "x1": 117.1596,
+          "y1": 245.0516,
+          "x2": 383.8846,
+          "y2": 463.5387
+        },
+        "detected_at": "2026-07-22T09:55:18.792000"
+      },
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 66.93,
+        "bbox": {
+          "x1": 123.3071,
+          "y1": 153.6393,
+          "x2": 471.9214,
+          "y2": 443.7006
+        },
+        "detected_at": "2026-07-22T09:55:18.792000"
+      }
+    ],
+    "unmapped_detections": [
+      {
+        "source_class": "bird",
+        "confidence": 69.45
+      }
+    ],
+    "total_objects": 2,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-22T09:55:18.792000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a6791afc9a089ad68502833",
+    "original_filename": "uav_feed_alpha_0412.jpg",
+    "detections": [
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 93.95,
+        "bbox": {
+          "x1": 156.3176,
+          "y1": 142.9755,
+          "x2": 534.5239,
+          "y2": 503.2362
+        },
+        "detected_at": "2026-07-23T23:00:18.792000"
+      },
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 83.84,
+        "bbox": {
+          "x1": 66.2767,
+          "y1": 231.587,
+          "x2": 476.6738,
+          "y2": 424.9669
+        },
+        "detected_at": "2026-07-23T23:00:18.792000"
+      },
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 67.96,
+        "bbox": {
+          "x1": 188.0462,
+          "y1": 70.3134,
+          "x2": 540.1762,
+          "y2": 587.8222
+        },
+        "detected_at": "2026-07-23T23:00:18.792000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 3,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-23T23:00:18.792000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a6791afc9a089ad68502834",
+    "original_filename": "tower_cam_bravo_night.png",
+    "detections": [
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 93.36,
+        "bbox": {
+          "x1": 69.8649,
+          "y1": 117.831,
+          "x2": 482.6311,
+          "y2": 457.9698
+        },
+        "detected_at": "2026-07-23T03:48:18.792000"
+      },
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 87.19,
+        "bbox": {
+          "x1": 105.5495,
+          "y1": 75.222,
+          "x2": 542.7973,
+          "y2": 500.0083
+        },
+        "detected_at": "2026-07-23T03:48:18.792000"
+      },
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 77.52,
+        "bbox": {
+          "x1": 163.9145,
+          "y1": 78.9057,
+          "x2": 535.7646,
+          "y2": 510.1721
+        },
+        "detected_at": "2026-07-23T03:48:18.792000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 3,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-23T03:48:18.792000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a6791afc9a089ad68502835",
+    "original_filename": "patrol_alpha_convoy.jpg",
+    "detections": [
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 88.18,
+        "bbox": {
+          "x1": 60.4284,
+          "y1": 73.6147,
+          "x2": 568.9477,
+          "y2": 496.5676
+        },
+        "detected_at": "2026-07-23T02:52:18.792000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 82.42,
+        "bbox": {
+          "x1": 43.9485,
+          "y1": 185.7769,
+          "x2": 378.0409,
+          "y2": 520.121
+        },
+        "detected_at": "2026-07-23T02:52:18.792000"
+      },
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 77.57,
+        "bbox": {
+          "x1": 110.5972,
+          "y1": 129.9102,
+          "x2": 542.2195,
+          "y2": 505.4846
+        },
+        "detected_at": "2026-07-23T02:52:18.792000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 62.89,
+        "bbox": {
+          "x1": 38.1429,
+          "y1": 131.5519,
+          "x2": 381.8626,
+          "y2": 467.8253
+        },
+        "detected_at": "2026-07-23T02:52:18.792000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 4,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-23T02:52:18.792000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a6791afc9a089ad68502836",
+    "original_filename": "drone_sweep_charlie.jpg",
+    "detections": [
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 94.32,
+        "bbox": {
+          "x1": 148.9151,
+          "y1": 229.0793,
+          "x2": 474.073,
+          "y2": 466.9536
+        },
+        "detected_at": "2026-07-24T01:40:18.792000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 81.53,
+        "bbox": {
+          "x1": 36.2184,
+          "y1": 111.0113,
+          "x2": 461.8374,
+          "y2": 494.0436
+        },
+        "detected_at": "2026-07-24T01:40:18.792000"
+      },
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 56.4,
+        "bbox": {
+          "x1": 87.6103,
+          "y1": 145.7002,
+          "x2": 523.816,
+          "y2": 459.6159
+        },
+        "detected_at": "2026-07-24T01:40:18.792000"
+      },
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 56.2,
+        "bbox": {
+          "x1": 102.362,
+          "y1": 186.937,
+          "x2": 373.2741,
+          "y2": 458.823
+        },
+        "detected_at": "2026-07-24T01:40:18.792000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 4,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-24T01:40:18.792000",
+    "status": "confirmed"
+  },
+  {
+    "_id": "6a6791afc9a089ad68502837",
+    "original_filename": "patrol_alpha_convoy.jpg",
+    "detections": [
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 68.9,
+        "bbox": {
+          "x1": 74.4629,
+          "y1": 242.3841,
+          "x2": 508.0748,
+          "y2": 472.4345
+        },
+        "detected_at": "2026-07-24T03:24:18.792000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-24T03:24:18.792000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a6791afc9a089ad68502838",
+    "original_filename": "patrol_alpha_convoy.jpg",
+    "detections": [
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 92.49,
+        "bbox": {
+          "x1": 28.0724,
+          "y1": 122.8619,
+          "x2": 388.612,
+          "y2": 457.9146
+        },
+        "detected_at": "2026-07-26T03:41:18.792000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 62.96,
+        "bbox": {
+          "x1": 35.0233,
+          "y1": 162.2804,
+          "x2": 402.6622,
+          "y2": 540.6084
+        },
+        "detected_at": "2026-07-26T03:41:18.792000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 2,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-26T03:41:18.792000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a6791afc9a089ad68502839",
+    "original_filename": "checkpoint_delta_gate.jpg",
+    "detections": [
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 71.77,
+        "bbox": {
+          "x1": 94.3618,
+          "y1": 181.7825,
+          "x2": 378.7043,
+          "y2": 426.2933
+        },
+        "detected_at": "2026-07-26T03:52:18.792000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-26T03:52:18.792000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a6791afc9a089ad6850283a",
+    "original_filename": "checkpoint_delta_gate.jpg",
+    "detections": [
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 93.62,
+        "bbox": {
+          "x1": 106.8328,
+          "y1": 98.182,
+          "x2": 387.2494,
+          "y2": 438.0976
+        },
+        "detected_at": "2026-07-25T04:17:18.792000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 91.2,
+        "bbox": {
+          "x1": 112.1812,
+          "y1": 99.258,
+          "x2": 363.5602,
+          "y2": 530.3096
+        },
+        "detected_at": "2026-07-25T04:17:18.792000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 88.07,
+        "bbox": {
+          "x1": 99.3438,
+          "y1": 173.1156,
+          "x2": 582.5346,
+          "y2": 567.4498
+        },
+        "detected_at": "2026-07-25T04:17:18.792000"
+      },
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 60.98,
+        "bbox": {
+          "x1": 76.659,
+          "y1": 163.8086,
+          "x2": 582.1199,
+          "y2": 441.7586
+        },
+        "detected_at": "2026-07-25T04:17:18.792000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 4,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-25T04:17:18.792000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a6791cd21b74c609d9baba4",
+    "original_filename": "etc_passwd.png",
+    "detections": [],
+    "unmapped_detections": [],
+    "total_objects": 0,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "6a677b742d1cc249f0968e1c",
+    "created_at": "2026-07-27T17:13:49.948000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a6791ce21b74c609d9baba6",
+    "original_filename": "frame.png",
+    "detections": [],
+    "unmapped_detections": [],
+    "total_objects": 0,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "6a677b742d1cc249f0968e1c",
+    "created_at": "2026-07-27T17:13:50.764000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a6791d321b74c609d9babc5",
+    "original_filename": "etc_passwd.png",
+    "detections": [],
+    "unmapped_detections": [],
+    "total_objects": 0,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "6a677b742d1cc249f0968e1c",
+    "created_at": "2026-07-27T17:13:55.325000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a6791d421b74c609d9babc7",
+    "original_filename": "frame.png",
+    "detections": [],
+    "unmapped_detections": [],
+    "total_objects": 0,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "6a677b742d1cc249f0968e1c",
+    "created_at": "2026-07-27T17:13:56.047000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fbc",
+    "original_filename": "patrol_alpha_convoy.jpg",
+    "detections": [
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 80.0,
+        "bbox": {
+          "x1": 83.7223,
+          "y1": 92.5885,
+          "x2": 566.2085,
+          "y2": 610.0448
+        },
+        "detected_at": "2026-07-22T22:00:29.345000"
+      },
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 74.88,
+        "bbox": {
+          "x1": 137.8247,
+          "y1": 117.2944,
+          "x2": 360.9825,
+          "y2": 503.7893
+        },
+        "detected_at": "2026-07-22T22:00:29.345000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 2,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-22T22:00:29.345000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fbd",
+    "original_filename": "tower_cam_bravo_night.png",
+    "detections": [
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 55.01,
+        "bbox": {
+          "x1": 50.253,
+          "y1": 88.2636,
+          "x2": 447.2664,
+          "y2": 425.1002
+        },
+        "detected_at": "2026-07-22T05:39:29.345000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-22T05:39:29.345000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fbe",
+    "original_filename": "tower_cam_bravo_night.png",
+    "detections": [
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 90.4,
+        "bbox": {
+          "x1": 159.2394,
+          "y1": 117.0007,
+          "x2": 448.008,
+          "y2": 453.4084
+        },
+        "detected_at": "2026-07-22T14:38:29.345000"
+      },
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 69.83,
+        "bbox": {
+          "x1": 158.0135,
+          "y1": 234.5462,
+          "x2": 541.9543,
+          "y2": 479.6179
+        },
+        "detected_at": "2026-07-22T14:38:29.345000"
+      },
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 65.86,
+        "bbox": {
+          "x1": 185.7711,
+          "y1": 99.0589,
+          "x2": 365.543,
+          "y2": 610.1971
+        },
+        "detected_at": "2026-07-22T14:38:29.345000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 3,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-22T14:38:29.345000",
+    "status": "confirmed"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fbf",
+    "original_filename": "patrol_alpha_convoy.jpg",
+    "detections": [
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 74.36,
+        "bbox": {
+          "x1": 58.729,
+          "y1": 178.925,
+          "x2": 442.6274,
+          "y2": 581.7131
+        },
+        "detected_at": "2026-07-22T14:54:29.345000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-22T14:54:29.345000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fc0",
+    "original_filename": "thermal_bravo_ridge.png",
+    "detections": [
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 95.45,
+        "bbox": {
+          "x1": 58.9611,
+          "y1": 227.3032,
+          "x2": 366.7185,
+          "y2": 462.556
+        },
+        "detected_at": "2026-07-23T02:54:29.345000"
+      },
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 55.58,
+        "bbox": {
+          "x1": 214.178,
+          "y1": 186.9414,
+          "x2": 486.3795,
+          "y2": 606.725
+        },
+        "detected_at": "2026-07-23T02:54:29.345000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 2,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-23T02:54:29.345000",
+    "status": "confirmed"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fc1",
+    "original_filename": "thermal_bravo_ridge.png",
+    "detections": [
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 57.53,
+        "bbox": {
+          "x1": 156.4663,
+          "y1": 165.5307,
+          "x2": 475.7969,
+          "y2": 575.298
+        },
+        "detected_at": "2026-07-23T11:13:29.345000"
+      }
+    ],
+    "unmapped_detections": [
+      {
+        "source_class": "bird",
+        "confidence": 49.78
+      }
+    ],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-23T11:13:29.345000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fc2",
+    "original_filename": "drone_sweep_charlie.jpg",
+    "detections": [
+      {
+        "object": "UAV",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 95.58,
+        "bbox": {
+          "x1": 186.4889,
+          "y1": 99.0639,
+          "x2": 463.5652,
+          "y2": 523.121
+        },
+        "detected_at": "2026-07-22T23:03:29.345000"
+      },
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 73.06,
+        "bbox": {
+          "x1": 23.6164,
+          "y1": 129.6696,
+          "x2": 509.7425,
+          "y2": 522.4525
+        },
+        "detected_at": "2026-07-22T23:03:29.345000"
+      },
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 72.27,
+        "bbox": {
+          "x1": 91.323,
+          "y1": 86.5949,
+          "x2": 447.8286,
+          "y2": 487.5959
+        },
+        "detected_at": "2026-07-22T23:03:29.345000"
+      },
+      {
+        "object": "UAV",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 59.63,
+        "bbox": {
+          "x1": 203.7096,
+          "y1": 111.1397,
+          "x2": 570.3341,
+          "y2": 436.8123
+        },
+        "detected_at": "2026-07-22T23:03:29.345000"
+      }
+    ],
+    "unmapped_detections": [
+      {
+        "source_class": "bird",
+        "confidence": 64.47
+      }
+    ],
+    "total_objects": 4,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-22T23:03:29.345000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fc3",
+    "original_filename": "drone_sweep_charlie.jpg",
+    "detections": [
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 62.52,
+        "bbox": {
+          "x1": 199.057,
+          "y1": 118.4062,
+          "x2": 364.0396,
+          "y2": 437.7132
+        },
+        "detected_at": "2026-07-22T21:53:29.345000"
+      }
+    ],
+    "unmapped_detections": [
+      {
+        "source_class": "bird",
+        "confidence": 66.41
+      }
+    ],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-22T21:53:29.345000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fc4",
+    "original_filename": "patrol_alpha_convoy.jpg",
+    "detections": [
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 94.78,
+        "bbox": {
+          "x1": 81.5566,
+          "y1": 108.7326,
+          "x2": 415.0959,
+          "y2": 459.7249
+        },
+        "detected_at": "2026-07-23T02:05:29.345000"
+      },
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 59.36,
+        "bbox": {
+          "x1": 183.784,
+          "y1": 147.792,
+          "x2": 478.8004,
+          "y2": 586.9228
+        },
+        "detected_at": "2026-07-23T02:05:29.345000"
+      },
+      {
+        "object": "UAV",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 55.63,
+        "bbox": {
+          "x1": 166.6161,
+          "y1": 169.1888,
+          "x2": 405.4696,
+          "y2": 514.9521
+        },
+        "detected_at": "2026-07-23T02:05:29.345000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 3,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-23T02:05:29.345000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fc5",
+    "original_filename": "drone_sweep_charlie.jpg",
+    "detections": [
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 65.83,
+        "bbox": {
+          "x1": 37.9507,
+          "y1": 141.912,
+          "x2": 370.0001,
+          "y2": 424.4988
+        },
+        "detected_at": "2026-07-24T23:32:29.345000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-24T23:32:29.345000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fc6",
+    "original_filename": "thermal_bravo_ridge.png",
+    "detections": [
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 74.78,
+        "bbox": {
+          "x1": 117.1596,
+          "y1": 245.0516,
+          "x2": 383.8846,
+          "y2": 463.5387
+        },
+        "detected_at": "2026-07-23T09:27:29.345000"
+      },
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 66.93,
+        "bbox": {
+          "x1": 123.3071,
+          "y1": 153.6393,
+          "x2": 471.9214,
+          "y2": 443.7006
+        },
+        "detected_at": "2026-07-23T09:27:29.345000"
+      }
+    ],
+    "unmapped_detections": [
+      {
+        "source_class": "bird",
+        "confidence": 69.45
+      }
+    ],
+    "total_objects": 2,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-23T09:27:29.345000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fc7",
+    "original_filename": "uav_feed_alpha_0412.jpg",
+    "detections": [
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 93.95,
+        "bbox": {
+          "x1": 156.3176,
+          "y1": 142.9755,
+          "x2": 534.5239,
+          "y2": 503.2362
+        },
+        "detected_at": "2026-07-24T23:32:29.345000"
+      },
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 83.84,
+        "bbox": {
+          "x1": 66.2767,
+          "y1": 231.587,
+          "x2": 476.6738,
+          "y2": 424.9669
+        },
+        "detected_at": "2026-07-24T23:32:29.345000"
+      },
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 67.96,
+        "bbox": {
+          "x1": 188.0462,
+          "y1": 70.3134,
+          "x2": 540.1762,
+          "y2": 587.8222
+        },
+        "detected_at": "2026-07-24T23:32:29.345000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 3,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-24T23:32:29.345000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fc8",
+    "original_filename": "tower_cam_bravo_night.png",
+    "detections": [
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 93.36,
+        "bbox": {
+          "x1": 69.8649,
+          "y1": 117.831,
+          "x2": 482.6311,
+          "y2": 457.9698
+        },
+        "detected_at": "2026-07-24T03:20:29.345000"
+      },
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 87.19,
+        "bbox": {
+          "x1": 105.5495,
+          "y1": 75.222,
+          "x2": 542.7973,
+          "y2": 500.0083
+        },
+        "detected_at": "2026-07-24T03:20:29.345000"
+      },
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 77.52,
+        "bbox": {
+          "x1": 163.9145,
+          "y1": 78.9057,
+          "x2": 535.7646,
+          "y2": 510.1721
+        },
+        "detected_at": "2026-07-24T03:20:29.345000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 3,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-24T03:20:29.345000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fc9",
+    "original_filename": "patrol_alpha_convoy.jpg",
+    "detections": [
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 88.18,
+        "bbox": {
+          "x1": 60.4284,
+          "y1": 73.6147,
+          "x2": 568.9477,
+          "y2": 496.5676
+        },
+        "detected_at": "2026-07-24T02:24:29.345000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 82.42,
+        "bbox": {
+          "x1": 43.9485,
+          "y1": 185.7769,
+          "x2": 378.0409,
+          "y2": 520.121
+        },
+        "detected_at": "2026-07-24T02:24:29.345000"
+      },
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 77.57,
+        "bbox": {
+          "x1": 110.5972,
+          "y1": 129.9102,
+          "x2": 542.2195,
+          "y2": 505.4846
+        },
+        "detected_at": "2026-07-24T02:24:29.345000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 62.89,
+        "bbox": {
+          "x1": 38.1429,
+          "y1": 131.5519,
+          "x2": 381.8626,
+          "y2": 467.8253
+        },
+        "detected_at": "2026-07-24T02:24:29.345000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 4,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-24T02:24:29.345000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fca",
+    "original_filename": "drone_sweep_charlie.jpg",
+    "detections": [
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 94.32,
+        "bbox": {
+          "x1": 148.9151,
+          "y1": 229.0793,
+          "x2": 474.073,
+          "y2": 466.9536
+        },
+        "detected_at": "2026-07-25T01:12:29.345000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 81.53,
+        "bbox": {
+          "x1": 36.2184,
+          "y1": 111.0113,
+          "x2": 461.8374,
+          "y2": 494.0436
+        },
+        "detected_at": "2026-07-25T01:12:29.345000"
+      },
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 56.4,
+        "bbox": {
+          "x1": 87.6103,
+          "y1": 145.7002,
+          "x2": 523.816,
+          "y2": 459.6159
+        },
+        "detected_at": "2026-07-25T01:12:29.345000"
+      },
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 56.2,
+        "bbox": {
+          "x1": 102.362,
+          "y1": 186.937,
+          "x2": 373.2741,
+          "y2": 458.823
+        },
+        "detected_at": "2026-07-25T01:12:29.345000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 4,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-25T01:12:29.345000",
+    "status": "confirmed"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fcb",
+    "original_filename": "patrol_alpha_convoy.jpg",
+    "detections": [
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 68.9,
+        "bbox": {
+          "x1": 74.4629,
+          "y1": 242.3841,
+          "x2": 508.0748,
+          "y2": 472.4345
+        },
+        "detected_at": "2026-07-25T03:56:29.345000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-25T03:56:29.345000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fcc",
+    "original_filename": "patrol_alpha_convoy.jpg",
+    "detections": [
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 92.49,
+        "bbox": {
+          "x1": 28.0724,
+          "y1": 122.8619,
+          "x2": 388.612,
+          "y2": 457.9146
+        },
+        "detected_at": "2026-07-27T03:13:29.345000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 62.96,
+        "bbox": {
+          "x1": 35.0233,
+          "y1": 162.2804,
+          "x2": 402.6622,
+          "y2": 540.6084
+        },
+        "detected_at": "2026-07-27T03:13:29.345000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 2,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-27T03:13:29.345000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fcd",
+    "original_filename": "checkpoint_delta_gate.jpg",
+    "detections": [
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 71.77,
+        "bbox": {
+          "x1": 94.3618,
+          "y1": 181.7825,
+          "x2": 378.7043,
+          "y2": 426.2933
+        },
+        "detected_at": "2026-07-27T03:24:29.345000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-27T03:24:29.345000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68dca93a7140ff6cca4fce",
+    "original_filename": "checkpoint_delta_gate.jpg",
+    "detections": [
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 93.62,
+        "bbox": {
+          "x1": 106.8328,
+          "y1": 98.182,
+          "x2": 387.2494,
+          "y2": 438.0976
+        },
+        "detected_at": "2026-07-26T04:49:29.345000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 91.2,
+        "bbox": {
+          "x1": 112.1812,
+          "y1": 99.258,
+          "x2": 363.5602,
+          "y2": 530.3096
+        },
+        "detected_at": "2026-07-26T04:49:29.345000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 88.07,
+        "bbox": {
+          "x1": 99.3438,
+          "y1": 173.1156,
+          "x2": 582.5346,
+          "y2": 567.4498
+        },
+        "detected_at": "2026-07-26T04:49:29.345000"
+      },
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 60.98,
+        "bbox": {
+          "x1": 76.659,
+          "y1": 163.8086,
+          "x2": 582.1199,
+          "y2": 441.7586
+        },
+        "detected_at": "2026-07-26T04:49:29.345000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 4,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-26T04:49:29.345000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec15",
+    "original_filename": "patrol_alpha_convoy.jpg",
+    "detections": [
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 80.0,
+        "bbox": {
+          "x1": 83.7223,
+          "y1": 92.5885,
+          "x2": 566.2085,
+          "y2": 610.0448
+        },
+        "detected_at": "2026-07-22T22:00:54.292000"
+      },
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 74.88,
+        "bbox": {
+          "x1": 137.8247,
+          "y1": 117.2944,
+          "x2": 360.9825,
+          "y2": 503.7893
+        },
+        "detected_at": "2026-07-22T22:00:54.292000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 2,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-22T22:00:54.292000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec16",
+    "original_filename": "tower_cam_bravo_night.png",
+    "detections": [
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 55.01,
+        "bbox": {
+          "x1": 50.253,
+          "y1": 88.2636,
+          "x2": 447.2664,
+          "y2": 425.1002
+        },
+        "detected_at": "2026-07-22T05:39:54.292000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-22T05:39:54.292000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec17",
+    "original_filename": "tower_cam_bravo_night.png",
+    "detections": [
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 90.4,
+        "bbox": {
+          "x1": 159.2394,
+          "y1": 117.0007,
+          "x2": 448.008,
+          "y2": 453.4084
+        },
+        "detected_at": "2026-07-22T14:38:54.292000"
+      },
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 69.83,
+        "bbox": {
+          "x1": 158.0135,
+          "y1": 234.5462,
+          "x2": 541.9543,
+          "y2": 479.6179
+        },
+        "detected_at": "2026-07-22T14:38:54.292000"
+      },
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 65.86,
+        "bbox": {
+          "x1": 185.7711,
+          "y1": 99.0589,
+          "x2": 365.543,
+          "y2": 610.1971
+        },
+        "detected_at": "2026-07-22T14:38:54.292000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 3,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-22T14:38:54.292000",
+    "status": "confirmed"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec18",
+    "original_filename": "patrol_alpha_convoy.jpg",
+    "detections": [
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 74.36,
+        "bbox": {
+          "x1": 58.729,
+          "y1": 178.925,
+          "x2": 442.6274,
+          "y2": 581.7131
+        },
+        "detected_at": "2026-07-22T14:54:54.292000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-22T14:54:54.292000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec19",
+    "original_filename": "thermal_bravo_ridge.png",
+    "detections": [
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 95.45,
+        "bbox": {
+          "x1": 58.9611,
+          "y1": 227.3032,
+          "x2": 366.7185,
+          "y2": 462.556
+        },
+        "detected_at": "2026-07-23T02:54:54.292000"
+      },
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 55.58,
+        "bbox": {
+          "x1": 214.178,
+          "y1": 186.9414,
+          "x2": 486.3795,
+          "y2": 606.725
+        },
+        "detected_at": "2026-07-23T02:54:54.292000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 2,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-23T02:54:54.292000",
+    "status": "confirmed"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec1a",
+    "original_filename": "thermal_bravo_ridge.png",
+    "detections": [
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 57.53,
+        "bbox": {
+          "x1": 156.4663,
+          "y1": 165.5307,
+          "x2": 475.7969,
+          "y2": 575.298
+        },
+        "detected_at": "2026-07-23T11:13:54.292000"
+      }
+    ],
+    "unmapped_detections": [
+      {
+        "source_class": "bird",
+        "confidence": 49.78
+      }
+    ],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-23T11:13:54.292000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec1b",
+    "original_filename": "drone_sweep_charlie.jpg",
+    "detections": [
+      {
+        "object": "UAV",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 95.58,
+        "bbox": {
+          "x1": 186.4889,
+          "y1": 99.0639,
+          "x2": 463.5652,
+          "y2": 523.121
+        },
+        "detected_at": "2026-07-22T23:03:54.292000"
+      },
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 73.06,
+        "bbox": {
+          "x1": 23.6164,
+          "y1": 129.6696,
+          "x2": 509.7425,
+          "y2": 522.4525
+        },
+        "detected_at": "2026-07-22T23:03:54.292000"
+      },
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 72.27,
+        "bbox": {
+          "x1": 91.323,
+          "y1": 86.5949,
+          "x2": 447.8286,
+          "y2": 487.5959
+        },
+        "detected_at": "2026-07-22T23:03:54.292000"
+      },
+      {
+        "object": "UAV",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 59.63,
+        "bbox": {
+          "x1": 203.7096,
+          "y1": 111.1397,
+          "x2": 570.3341,
+          "y2": 436.8123
+        },
+        "detected_at": "2026-07-22T23:03:54.292000"
+      }
+    ],
+    "unmapped_detections": [
+      {
+        "source_class": "bird",
+        "confidence": 64.47
+      }
+    ],
+    "total_objects": 4,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-22T23:03:54.292000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec1c",
+    "original_filename": "drone_sweep_charlie.jpg",
+    "detections": [
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 62.52,
+        "bbox": {
+          "x1": 199.057,
+          "y1": 118.4062,
+          "x2": 364.0396,
+          "y2": 437.7132
+        },
+        "detected_at": "2026-07-22T21:53:54.292000"
+      }
+    ],
+    "unmapped_detections": [
+      {
+        "source_class": "bird",
+        "confidence": 66.41
+      }
+    ],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-22T21:53:54.292000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec1d",
+    "original_filename": "patrol_alpha_convoy.jpg",
+    "detections": [
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 94.78,
+        "bbox": {
+          "x1": 81.5566,
+          "y1": 108.7326,
+          "x2": 415.0959,
+          "y2": 459.7249
+        },
+        "detected_at": "2026-07-23T02:05:54.292000"
+      },
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 59.36,
+        "bbox": {
+          "x1": 183.784,
+          "y1": 147.792,
+          "x2": 478.8004,
+          "y2": 586.9228
+        },
+        "detected_at": "2026-07-23T02:05:54.292000"
+      },
+      {
+        "object": "UAV",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 55.63,
+        "bbox": {
+          "x1": 166.6161,
+          "y1": 169.1888,
+          "x2": 405.4696,
+          "y2": 514.9521
+        },
+        "detected_at": "2026-07-23T02:05:54.292000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 3,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-23T02:05:54.292000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec1e",
+    "original_filename": "drone_sweep_charlie.jpg",
+    "detections": [
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 65.83,
+        "bbox": {
+          "x1": 37.9507,
+          "y1": 141.912,
+          "x2": 370.0001,
+          "y2": 424.4988
+        },
+        "detected_at": "2026-07-24T23:32:54.292000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-24T23:32:54.292000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec1f",
+    "original_filename": "thermal_bravo_ridge.png",
+    "detections": [
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 74.78,
+        "bbox": {
+          "x1": 117.1596,
+          "y1": 245.0516,
+          "x2": 383.8846,
+          "y2": 463.5387
+        },
+        "detected_at": "2026-07-23T09:27:54.292000"
+      },
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 66.93,
+        "bbox": {
+          "x1": 123.3071,
+          "y1": 153.6393,
+          "x2": 471.9214,
+          "y2": 443.7006
+        },
+        "detected_at": "2026-07-23T09:27:54.292000"
+      }
+    ],
+    "unmapped_detections": [
+      {
+        "source_class": "bird",
+        "confidence": 69.45
+      }
+    ],
+    "total_objects": 2,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-23T09:27:54.292000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec20",
+    "original_filename": "uav_feed_alpha_0412.jpg",
+    "detections": [
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 93.95,
+        "bbox": {
+          "x1": 156.3176,
+          "y1": 142.9755,
+          "x2": 534.5239,
+          "y2": 503.2362
+        },
+        "detected_at": "2026-07-24T23:32:54.292000"
+      },
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 83.84,
+        "bbox": {
+          "x1": 66.2767,
+          "y1": 231.587,
+          "x2": 476.6738,
+          "y2": 424.9669
+        },
+        "detected_at": "2026-07-24T23:32:54.292000"
+      },
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 67.96,
+        "bbox": {
+          "x1": 188.0462,
+          "y1": 70.3134,
+          "x2": 540.1762,
+          "y2": 587.8222
+        },
+        "detected_at": "2026-07-24T23:32:54.292000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 3,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-24T23:32:54.292000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec21",
+    "original_filename": "tower_cam_bravo_night.png",
+    "detections": [
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 93.36,
+        "bbox": {
+          "x1": 69.8649,
+          "y1": 117.831,
+          "x2": 482.6311,
+          "y2": 457.9698
+        },
+        "detected_at": "2026-07-24T03:20:54.292000"
+      },
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 87.19,
+        "bbox": {
+          "x1": 105.5495,
+          "y1": 75.222,
+          "x2": 542.7973,
+          "y2": 500.0083
+        },
+        "detected_at": "2026-07-24T03:20:54.292000"
+      },
+      {
+        "object": "Civilian Car",
+        "source_class": "car",
+        "is_proxy_class": true,
+        "confidence": 77.52,
+        "bbox": {
+          "x1": 163.9145,
+          "y1": 78.9057,
+          "x2": 535.7646,
+          "y2": 510.1721
+        },
+        "detected_at": "2026-07-24T03:20:54.292000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 3,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-24T03:20:54.292000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec22",
+    "original_filename": "patrol_alpha_convoy.jpg",
+    "detections": [
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 88.18,
+        "bbox": {
+          "x1": 60.4284,
+          "y1": 73.6147,
+          "x2": 568.9477,
+          "y2": 496.5676
+        },
+        "detected_at": "2026-07-24T02:24:54.292000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 82.42,
+        "bbox": {
+          "x1": 43.9485,
+          "y1": 185.7769,
+          "x2": 378.0409,
+          "y2": 520.121
+        },
+        "detected_at": "2026-07-24T02:24:54.292000"
+      },
+      {
+        "object": "Helicopter",
+        "source_class": "airplane",
+        "is_proxy_class": true,
+        "confidence": 77.57,
+        "bbox": {
+          "x1": 110.5972,
+          "y1": 129.9102,
+          "x2": 542.2195,
+          "y2": 505.4846
+        },
+        "detected_at": "2026-07-24T02:24:54.292000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 62.89,
+        "bbox": {
+          "x1": 38.1429,
+          "y1": 131.5519,
+          "x2": 381.8626,
+          "y2": 467.8253
+        },
+        "detected_at": "2026-07-24T02:24:54.292000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 4,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-24T02:24:54.292000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec23",
+    "original_filename": "drone_sweep_charlie.jpg",
+    "detections": [
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 94.32,
+        "bbox": {
+          "x1": 148.9151,
+          "y1": 229.0793,
+          "x2": 474.073,
+          "y2": 466.9536
+        },
+        "detected_at": "2026-07-25T01:12:54.292000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 81.53,
+        "bbox": {
+          "x1": 36.2184,
+          "y1": 111.0113,
+          "x2": 461.8374,
+          "y2": 494.0436
+        },
+        "detected_at": "2026-07-25T01:12:54.292000"
+      },
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 56.4,
+        "bbox": {
+          "x1": 87.6103,
+          "y1": 145.7002,
+          "x2": 523.816,
+          "y2": 459.6159
+        },
+        "detected_at": "2026-07-25T01:12:54.292000"
+      },
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 56.2,
+        "bbox": {
+          "x1": 102.362,
+          "y1": 186.937,
+          "x2": 373.2741,
+          "y2": 458.823
+        },
+        "detected_at": "2026-07-25T01:12:54.292000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 4,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-25T01:12:54.292000",
+    "status": "confirmed"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec24",
+    "original_filename": "patrol_alpha_convoy.jpg",
+    "detections": [
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 68.9,
+        "bbox": {
+          "x1": 74.4629,
+          "y1": 242.3841,
+          "x2": 508.0748,
+          "y2": 472.4345
+        },
+        "detected_at": "2026-07-25T03:56:54.292000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-25T03:56:54.292000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec25",
+    "original_filename": "patrol_alpha_convoy.jpg",
+    "detections": [
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 92.49,
+        "bbox": {
+          "x1": 28.0724,
+          "y1": 122.8619,
+          "x2": 388.612,
+          "y2": 457.9146
+        },
+        "detected_at": "2026-07-27T03:13:54.292000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 62.96,
+        "bbox": {
+          "x1": 35.0233,
+          "y1": 162.2804,
+          "x2": 402.6622,
+          "y2": 540.6084
+        },
+        "detected_at": "2026-07-27T03:13:54.292000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 2,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-27T03:13:54.292000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec26",
+    "original_filename": "checkpoint_delta_gate.jpg",
+    "detections": [
+      {
+        "object": "Truck",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 71.77,
+        "bbox": {
+          "x1": 94.3618,
+          "y1": 181.7825,
+          "x2": 378.7043,
+          "y2": 426.2933
+        },
+        "detected_at": "2026-07-27T03:24:54.292000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 1,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-27T03:24:54.292000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68ead2f7e06a9896caec27",
+    "original_filename": "checkpoint_delta_gate.jpg",
+    "detections": [
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 93.62,
+        "bbox": {
+          "x1": 106.8328,
+          "y1": 98.182,
+          "x2": 387.2494,
+          "y2": 438.0976
+        },
+        "detected_at": "2026-07-26T04:49:54.292000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 91.2,
+        "bbox": {
+          "x1": 112.1812,
+          "y1": 99.258,
+          "x2": 363.5602,
+          "y2": 530.3096
+        },
+        "detected_at": "2026-07-26T04:49:54.292000"
+      },
+      {
+        "object": "Soldier",
+        "source_class": "person",
+        "is_proxy_class": true,
+        "confidence": 88.07,
+        "bbox": {
+          "x1": 99.3438,
+          "y1": 173.1156,
+          "x2": 582.5346,
+          "y2": 567.4498
+        },
+        "detected_at": "2026-07-26T04:49:54.292000"
+      },
+      {
+        "object": "Tank",
+        "source_class": "truck",
+        "is_proxy_class": true,
+        "confidence": 60.98,
+        "bbox": {
+          "x1": 76.659,
+          "y1": 163.8086,
+          "x2": 582.1199,
+          "y2": 441.7586
+        },
+        "detected_at": "2026-07-26T04:49:54.292000"
+      }
+    ],
+    "unmapped_detections": [],
+    "total_objects": 4,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "seed",
+    "created_at": "2026-07-26T04:49:54.292000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68eb397c6a33f5cf869c36",
+    "original_filename": "etc_passwd.png",
+    "detections": [],
+    "unmapped_detections": [],
+    "total_objects": 0,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "6a677b742d1cc249f0968e1c",
+    "created_at": "2026-07-28T17:47:37.708000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68eb3a7c6a33f5cf869c3b",
+    "original_filename": "frame.png",
+    "detections": [],
+    "unmapped_detections": [],
+    "total_objects": 0,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "6a677b742d1cc249f0968e1c",
+    "created_at": "2026-07-28T17:47:38.530000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68eb3b7c6a33f5cf869c41",
+    "original_filename": "etc_passwd.png",
+    "detections": [],
+    "unmapped_detections": [],
+    "total_objects": 0,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "6a677b742d1cc249f0968e1c",
+    "created_at": "2026-07-28T17:47:39.627000",
+    "status": "pending_analyst_review"
+  },
+  {
+    "_id": "6a68eb3d7c6a33f5cf869c48",
+    "original_filename": "frame.png",
+    "detections": [],
+    "unmapped_detections": [],
+    "total_objects": 0,
+    "model": "yolov8n (COCO proxy classes)",
+    "uploaded_by": "6a677b742d1cc249f0968e1c",
+    "created_at": "2026-07-28T17:47:41.110000",
+    "status": "pending_analyst_review"
+  }
+]

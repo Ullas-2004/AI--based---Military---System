@@ -53,7 +53,9 @@ def _seed_from_export(db) -> None:
     from datetime import datetime
     from bson import ObjectId
 
-    export_dir = r"C:\Users\ADMIN\Downloads\aegis_ai_db_export\aegis_ai_db_export"
+    repo_export = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data_export")
+    local_export = r"C:\Users\ADMIN\Downloads\aegis_ai_db_export\aegis_ai_db_export"
+    export_dir = repo_export if os.path.exists(repo_export) else local_export
     if not os.path.exists(export_dir):
         return
 

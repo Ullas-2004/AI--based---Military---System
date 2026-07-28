@@ -1,0 +1,71 @@
+{
+  "algorithm": "XGBoost gradient-boosted trees (squared error)",
+  "confusion_matrix": {
+    "CRITICAL": {
+      "CRITICAL": 88,
+      "HIGH": 42,
+      "LOW": 0,
+      "MEDIUM": 0
+    },
+    "HIGH": {
+      "CRITICAL": 12,
+      "HIGH": 706,
+      "LOW": 0,
+      "MEDIUM": 75
+    },
+    "LOW": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "LOW": 659,
+      "MEDIUM": 66
+    },
+    "MEDIUM": {
+      "CRITICAL": 0,
+      "HIGH": 73,
+      "LOW": 56,
+      "MEDIUM": 623
+    }
+  },
+  "feature_importance": {
+    "ConfidenceScore": 0.0203,
+    "DetectedObject": 0.7995,
+    "DistanceToBorder_km": 0.0658,
+    "Terrain": 0.0391,
+    "TimeOfDay": 0.0449,
+    "Weather": 0.0305
+  },
+  "features": [
+    "DetectedObject",
+    "ConfidenceScore",
+    "Weather",
+    "Terrain",
+    "TimeOfDay",
+    "DistanceToBorder_km"
+  ],
+  "holdout_samples": 2400,
+  "limitations": [
+    "Trained on synthetic telemetry generated from a doctrine-inspired scoring function with Gaussian analyst noise. Real operational telemetry is classified and was not used.",
+    "Object classes originate from COCO-trained YOLO weights mapped onto a military taxonomy as a documented proxy.",
+    "Scores are advisory decision support and require analyst confirmation before any action."
+  ],
+  "metrics": {
+    "band_accuracy": 0.865,
+    "mae": 3.347,
+    "r2": 0.9564,
+    "rmse": 4.221
+  },
+  "model_version": "xgboost-regressor-v3",
+  "trained_at": "2026-07-26T14:10:14.621210+00:00",
+  "training_data": "synthetic",
+  "training_samples": 9600,
+  "uncertainty": {
+    "empirical_coverage": 0.7558,
+    "mean_interval_width": 10.72,
+    "nominal_coverage": 0.8,
+    "quantiles": [
+      0.1,
+      0.5,
+      0.9
+    ]
+  }
+}

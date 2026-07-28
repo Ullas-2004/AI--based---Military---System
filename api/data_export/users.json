@@ -1,0 +1,200 @@
+[
+  {
+    "_id": "6a677b732d1cc249f0968e1b",
+    "username": "cmdr.hayes",
+    "username_lower": "cmdr.hayes",
+    "password": "$2b$12$6VoEIOHcMRLsIENQMrks0.NTJUZNNiOLPwY0re4duy3Aph.HzeZFy",
+    "role": "commander",
+    "status": "active",
+    "created_at": "2026-04-06T15:38:27.062000"
+  },
+  {
+    "_id": "6a677b742d1cc249f0968e1c",
+    "username": "analyst.rao",
+    "username_lower": "analyst.rao",
+    "password": "$2b$12$goEJLU.kR05Mc19h1Bbf7utIjEQggK8lQiP3HzXmWv1nnDv3nIv9u",
+    "role": "analyst",
+    "status": "active",
+    "created_at": "2026-05-20T15:38:28.005000"
+  },
+  {
+    "_id": "6a677b742d1cc249f0968e1d",
+    "username": "analyst.okafor",
+    "username_lower": "analyst.okafor",
+    "password": "$2b$12$GmMchwLYnJbolb93aFjLfe8R0Q6B0DFzYg75C.OFE7ueObvM2bkTG",
+    "role": "analyst",
+    "status": "active",
+    "created_at": "2026-03-18T15:38:28.692000"
+  },
+  {
+    "_id": "6a677b752d1cc249f0968e1e",
+    "username": "sysadmin.chen",
+    "username_lower": "sysadmin.chen",
+    "password": "$2b$12$3BQPyQqi34q8bVzGayyOcuwgxfcQjrAkTv4I/1jw8sLDexs7OVIg.",
+    "role": "admin",
+    "status": "active",
+    "created_at": "2026-01-12T15:38:29.309000"
+  },
+  {
+    "_id": "6a678aa05cb2e145b2bb613b",
+    "username": "Rachith000bharadwaj",
+    "username_lower": "rachith000bharadwaj",
+    "password": "$2b$12$/wMg307DypVj2PGRyYmMx.rXOkyuEjBjKBhICeGrObwPN7DyDy5.G",
+    "role": "admin",
+    "status": "active",
+    "created_at": "2026-07-27T16:43:12.412000"
+  },
+  {
+    "_id": "6a678c60afa4059ad92171b5",
+    "username": "Ullas",
+    "username_lower": "ullas",
+    "password": "$2b$12$tGIv9OcoNcKODvcU9MINlOJMK0ST30A00MJN51dXt5oKZcjznGJvy",
+    "role": "commander",
+    "status": "active",
+    "created_at": "2026-07-27T16:50:40.128000"
+  },
+  {
+    "_id": "6a67916ee47ad10234a2b7d4",
+    "username": "e2e_e6b1fc62",
+    "username_lower": "e2e_e6b1fc62",
+    "password": "$2b$12$69bHFKTPM.QeJ5b7H5r91e6tGZ6lBbg3VzyP.1ywfTI9YVfLMNaki",
+    "role": "analyst",
+    "status": "active",
+    "created_at": "2026-07-27T17:12:14.616000"
+  },
+  {
+    "_id": "6a679170e47ad10234a2b7d7",
+    "username": "esce6b1fc62",
+    "username_lower": "esce6b1fc62",
+    "password": "$2b$12$wz.qi6ihEQLMTpkvTsrLee18ugu37V0QlPqvntWuHmSrCmmsSKd5G",
+    "role": "admin",
+    "status": "active",
+    "created_at": "2026-07-27T17:12:16.375000"
+  },
+  {
+    "_id": "6a679171e47ad10234a2b7d9",
+    "username": "unie6b1fc62",
+    "username_lower": "unie6b1fc62",
+    "password": "$2b$12$tFFXx8/nxQXheLi1uip1EeRG0AVs7JHNy3q2dlF/lGXpnaI1/Xab.",
+    "role": "analyst",
+    "status": "active",
+    "created_at": "2026-07-27T17:12:17.633000"
+  },
+  {
+    "_id": "6a679185e47ad10234a2b7e3",
+    "username": "e2e_6389bed3",
+    "username_lower": "e2e_6389bed3",
+    "password": "$2b$12$cYnLQPjj2DXet6go7PH1L.0.9hgA3m38hUzUozA5NP066vT6vf0lS",
+    "role": "analyst",
+    "status": "active",
+    "created_at": "2026-07-27T17:12:37.414000"
+  },
+  {
+    "_id": "6a679186e47ad10234a2b7e6",
+    "username": "esc6389bed3",
+    "username_lower": "esc6389bed3",
+    "password": "$2b$12$6g6loVlcH7YKLyiRIelOPuHDXtNqv2FVoVsgNtGwAn0ne31txpiKW",
+    "role": "admin",
+    "status": "active",
+    "created_at": "2026-07-27T17:12:38.620000"
+  },
+  {
+    "_id": "6a679187e47ad10234a2b7e8",
+    "username": "uni6389bed3",
+    "username_lower": "uni6389bed3",
+    "password": "$2b$12$pF.YlNzrloGNx0PAZXO.AOyfcZFLqEQgrtid4mXZgY4iFk0wir5qK",
+    "role": "analyst",
+    "status": "active",
+    "created_at": "2026-07-27T17:12:39.319000"
+  },
+  {
+    "_id": "6a679197e47ad10234a2b801",
+    "username": "race_9a18d6a6",
+    "username_lower": "race_9a18d6a6",
+    "password": "$2b$12$sVx.C.qFvpanO08rZCPRxO6F.Pc8MhR6nZQWelGX8IzQtGNzSHFOy",
+    "role": "analyst",
+    "status": "active",
+    "created_at": "2026-07-27T17:12:55.010000"
+  },
+  {
+    "_id": "6a6791b821b74c609d9bab8a",
+    "username": "e2e_944e9383",
+    "username_lower": "e2e_944e9383",
+    "password": "$2b$12$9bMw/ZOJ9ASn0mj7/8W6fe/IhHiGH6RoHXzgTA0pYDmaXZmJrPXGW",
+    "role": "analyst",
+    "status": "active",
+    "created_at": "2026-07-27T17:13:28.157000"
+  },
+  {
+    "_id": "6a6791bb21b74c609d9bab8d",
+    "username": "uni944e9383",
+    "username_lower": "uni944e9383",
+    "password": "$2b$12$DYm03KX90UJpaO/YOZ1w6.Rf57950enOrk57l3GawcLjlg1DYgEfe",
+    "role": "analyst",
+    "status": "active",
+    "created_at": "2026-07-27T17:13:31.122000"
+  },
+  {
+    "_id": "6a6791ce21b74c609d9baba8",
+    "username": "e2e_07c0a870",
+    "username_lower": "e2e_07c0a870",
+    "password": "$2b$12$TiQFXp9cFIjN9/8CvMHMduC/ytRxir2e5gbEPK3FupWPzA.BOPMhC",
+    "role": "analyst",
+    "status": "active",
+    "created_at": "2026-07-27T17:13:50.800000"
+  },
+  {
+    "_id": "6a6791d021b74c609d9babaf",
+    "username": "race_f2280706",
+    "username_lower": "race_f2280706",
+    "password": "$2b$12$y2A3/lR5LbobceFtgRHw4.kPF7Nfu.MwzZhuDw/iV5YqZBLE5zC22",
+    "role": "analyst",
+    "status": "active",
+    "created_at": "2026-07-27T17:13:52.914000"
+  },
+  {
+    "_id": "6a68eb237c6a33f5cf869c0b",
+    "username": "e2e_c377f29c",
+    "username_lower": "e2e_c377f29c",
+    "password": "$2b$12$PtIcoGDYczrxr4f9r75Lqub5n/4R05XqbWJUhVhClau/z23ybREQe",
+    "role": "analyst",
+    "status": "active",
+    "created_at": "2026-07-28T17:47:15.864000"
+  },
+  {
+    "_id": "6a68eb257c6a33f5cf869c0e",
+    "username": "unic377f29c",
+    "username_lower": "unic377f29c",
+    "password": "$2b$12$t0AQpfBzB/4BQ0XvQ4Jgw.c2PlRao.74fJ92CS59NjUWlxejD5dG6",
+    "role": "analyst",
+    "status": "active",
+    "created_at": "2026-07-28T17:47:17.720000"
+  },
+  {
+    "_id": "6a68eb347c6a33f5cf869c25",
+    "username": "e2e_46c5fd17",
+    "username_lower": "e2e_46c5fd17",
+    "password": "$2b$12$MzMGG6rVqvSbwqEi35OrX.wt8O.ljWu87FFo1CqaKXOsUWPpkp7cK",
+    "role": "analyst",
+    "status": "active",
+    "created_at": "2026-07-28T17:47:32.445000"
+  },
+  {
+    "_id": "6a68eb377c6a33f5cf869c28",
+    "username": "uni46c5fd17",
+    "username_lower": "uni46c5fd17",
+    "password": "$2b$12$apLcJfWYL6kEW2fwded46uNp3LV6SaYeNZYlV7qtYo8kju2Md/.0a",
+    "role": "analyst",
+    "status": "active",
+    "created_at": "2026-07-28T17:47:35.281000"
+  },
+  {
+    "_id": "6a68eb3c7c6a33f5cf869c43",
+    "username": "race_8058c3eb",
+    "username_lower": "race_8058c3eb",
+    "password": "$2b$12$Ta3/n5ZUbvj1INv8kHBC.OzgSFzYu7F1vbiRIvK1Zo5smihnFEQzG",
+    "role": "analyst",
+    "status": "active",
+    "created_at": "2026-07-28T17:47:40.735000"
+  }
+]

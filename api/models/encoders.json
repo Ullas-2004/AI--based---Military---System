@@ -1,0 +1,39 @@
+{
+  "categories": {
+    "DetectedObject": [
+      "Civilian Car",
+      "Helicopter",
+      "Soldier",
+      "Tank",
+      "Truck",
+      "UAV"
+    ],
+    "Terrain": [
+      "Desert",
+      "Forest",
+      "Mountain",
+      "Urban"
+    ],
+    "TimeOfDay": [
+      "Afternoon",
+      "Evening",
+      "Morning",
+      "Night"
+    ],
+    "Weather": [
+      "Clear",
+      "Fog",
+      "Overcast",
+      "Rain",
+      "Snow"
+    ]
+  },
+  "features": [
+    "DetectedObject",
+    "ConfidenceScore",
+    "Weather",
+    "Terrain",
+    "TimeOfDay",
+    "DistanceToBorder_km"
+  ]
+}
