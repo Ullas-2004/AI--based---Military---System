@@ -18,6 +18,7 @@ pymongo~=4.10
 
 # --- Machine learning (inference) ------------------------------------------
 numpy~=2.2
+scikit-learn~=1.5
 xgboost~=2.1
 
 # --- Computer vision -------------------------------------------------------
