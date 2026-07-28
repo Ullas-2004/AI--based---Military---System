@@ -130,21 +130,20 @@ def get_db():
             logger.info("Connected to MongoDB database '%s'.", config.MONGO_DB_NAME)
             return _db
         except PyMongoError as exc:
-            if not config.IS_PRODUCTION:
-                try:
-                    import mongomock
-                    client = mongomock.MongoClient()
-                    db = client[config.MONGO_DB_NAME]
-                    _create_indexes(db)
-                    _client, _db = client, db
-                    logger.warning(
-                        "Real MongoDB unavailable (%s). Falling back to in-memory mongomock database.",
-                        exc.__class__.__name__,
-                    )
-                    _seed_from_export(db)
-                    return _db
-                except Exception:
-                    pass
+            try:
+                import mongomock
+                client = mongomock.MongoClient()
+                db = client[config.MONGO_DB_NAME]
+                _create_indexes(db)
+                _client, _db = client, db
+                logger.warning(
+                    "Real MongoDB unavailable (%s). Falling back to in-memory mongomock database.",
+                    exc.__class__.__name__,
+                )
+                _seed_from_export(db)
+                return _db
+            except Exception:
+                pass
             _last_failure_at = time.monotonic()
             logger.warning(
                 "MongoDB unavailable (%s). Stateful endpoints disabled; "
