@@ -1,0 +1,64 @@
+# One-command local stack:  docker compose up --build
+#
+# Brings up MongoDB, the Flask API and the Next.js frontend together. Uses a
+# local Mongo by default so the stack runs with no cloud account; point
+# MONGO_URI at Atlas in .env to use that instead.
+services:
+  mongo:
+    image: mongo:8
+    restart: unless-stopped
+    volumes:
+      - mongo-data:/data/db
+    healthcheck:
+      # The API waits for this rather than racing the database on startup.
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+
+  api:
+    build:
+      context: .
+      dockerfile: api/Dockerfile
+    restart: unless-stopped
+    depends_on:
+      mongo:
+        condition: service_healthy
+    environment:
+      FLASK_ENV: production
+      FLASK_DEBUG: "0"
+      HOST: 0.0.0.0
+      PORT: "5332"
+      MONGO_URI: ${MONGO_URI:-mongodb://mongo:27017/}
+      MONGO_DB_NAME: ${MONGO_DB_NAME:-aegis_ai_db}
+      # Required in production — the app refuses to boot without it.
+      JWT_SECRET_KEY: ${JWT_SECRET_KEY:?set JWT_SECRET_KEY in .env}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:3000}
+      GROQ_API_KEY: ${GROQ_API_KEY:-}
+    ports:
+      - "5332:5332"
+    healthcheck:
+      test: ["CMD", "python", "-c",
+             "import urllib.request;urllib.request.urlopen('http://localhost:5332/api/health')"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 40s
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.web
+    restart: unless-stopped
+    depends_on:
+      api:
+        condition: service_healthy
+    environment:
+      # Server-side rewrites target the API container, not localhost.
+      API_ORIGIN: http://api:5332
+    ports:
+      - "3000:3000"
+
+volumes:
+  mongo-data:

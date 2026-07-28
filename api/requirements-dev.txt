@@ -1,0 +1,11 @@
+# Development and CI dependencies (training + tests).
+-r requirements.txt
+
+# Model training only — not needed to serve inference.
+pandas~=2.2
+scikit-learn~=1.6
+
+# Testing
+pytest~=8.3
+pytest-cov~=6.0
+mongomock~=4.3

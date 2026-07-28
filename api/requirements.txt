@@ -1,0 +1,31 @@
+# AegisAI backend runtime dependencies.
+# Install with:  pip install -r api/requirements.txt
+# Pinned with compatible-release (~=) so patch fixes are picked up but breaking
+# majors are not.
+
+# --- Web framework ---------------------------------------------------------
+Flask~=3.1
+Flask-Cors~=6.0
+python-dotenv~=1.0
+waitress~=3.0            # production WSGI server (cross-platform)
+
+# --- Security --------------------------------------------------------------
+PyJWT~=2.10
+bcrypt~=4.2
+
+# --- Database --------------------------------------------------------------
+pymongo~=4.10
+
+# --- Machine learning (inference) ------------------------------------------
+numpy~=2.2
+xgboost~=2.1
+
+# --- Computer vision -------------------------------------------------------
+ultralytics~=8.3
+opencv-python-headless~=4.10   # headless: no GUI libraries needed on a server
+
+# --- Reporting -------------------------------------------------------------
+reportlab~=4.2
+
+# --- Generative AI ---------------------------------------------------------
+groq~=0.13

@@ -1,0 +1,13 @@
+node_modules
+.next
+.git
+.github
+**/__pycache__
+**/*.pyc
+.pytest_cache
+api/uploads/*
+!api/uploads/.gitkeep
+api/models
+.env
+*.md
+!README.md
