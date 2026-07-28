@@ -1,2 +1,9 @@
+api
 api/
+api/*
+api/**
+api/requirements.txt
+api/requirements-dev.txt
+api/app.py
+api/config.py
 pytest.ini
