@@ -52,10 +52,21 @@ def _load() -> None:
             _model = model
             logger.info("Threat prediction model loaded (%d features).", len(_features))
         except (OSError, ValueError, KeyError, json.JSONDecodeError):
-            logger.exception(
-                "Failed to load threat model. Run: python api/train_threat_model.py"
-            )
-            return
+            logger.info("Threat model files missing; auto-generating model artifacts...")
+            try:
+                import train_threat_model
+                train_threat_model.main()
+                with open(config.ENCODERS_PATH, encoding="utf-8") as fh:
+                    meta = json.load(fh)
+                model = xgb.XGBRegressor()
+                model.load_model(config.THREAT_MODEL_PATH)
+                _features = meta["features"]
+                _categories = meta["categories"]
+                _model = model
+                logger.info("Auto-trained threat model loaded successfully.")
+            except Exception as train_exc:
+                logger.exception("Failed to auto-train threat model: %s", train_exc)
+                return
 
         # Uncertainty and model-card metadata are optional: an older model
         # directory still serves scores, just without intervals.
