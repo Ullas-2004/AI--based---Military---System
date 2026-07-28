@@ -92,12 +92,17 @@ def _register_blueprints(app: Flask) -> None:
         from services.ml_service import is_ready as ml_ready
         from services.llm_service import is_online
 
+        def _safe_check(fn):
+            try:
+                return bool(fn())
+            except Exception as exc:
+                logger.warning("Subsystem probe failed: %s", exc)
+                return False
+
         subsystems = {
-            "database": is_connected(),
-            "threat_model": ml_ready(),
-            "assistant": is_online(),
-            # Deliberately not probed: loading YOLO costs seconds and would make
-            # the health endpoint unusable as a liveness check.
+            "database": _safe_check(is_connected),
+            "threat_model": _safe_check(ml_ready),
+            "assistant": _safe_check(is_online),
         }
         return jsonify({
             "status": "success",
