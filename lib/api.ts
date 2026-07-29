@@ -94,20 +94,9 @@ async function request<T>(path: string, options: RequestOptions = {}): Promise<T
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);
 
-  const PRODUCTION_BACKEND_URL = "https://ai-based-military-system-1.onrender.com";
-  let targetUrl = path;
-  if (!path.startsWith("http")) {
-    const customOrigin = process.env.NEXT_PUBLIC_API_ORIGIN;
-    if (customOrigin) {
-      targetUrl = `${customOrigin.replace(/\/$/, "")}${path}`;
-    } else {
-      targetUrl = `${PRODUCTION_BACKEND_URL}${path}`;
-    }
-  }
-
   let response: Response;
   try {
-    response = await fetch(targetUrl, {
+    response = await fetch(path, {
       ...init,
       headers,
       body: payload,
