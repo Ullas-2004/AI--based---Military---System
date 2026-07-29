@@ -120,7 +120,7 @@ def _register_blueprints(app: Flask) -> None:
         return jsonify({
             "status": "success",
             "message": "AegisAI backend is running.",
-            "version": "2.0.0",
+            "version": "2.0.2",
             "environment": config.ENV,
             "subsystems": subsystems,
         }), 200
