@@ -104,7 +104,7 @@ class Config:
         """Return a list of fatal misconfigurations. Empty means safe to boot."""
         problems = []
         if cls.IS_PRODUCTION:
-            if not os.getenv("JWT_SECRET_KEY"):
+            if not cls.JWT_SECRET_KEY:
                 problems.append("JWT_SECRET_KEY must be set in production.")
             elif len(cls.JWT_SECRET_KEY.encode()) < 32:
                 problems.append(
