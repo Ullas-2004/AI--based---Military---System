@@ -120,7 +120,9 @@ def get_db():
         try:
             client = MongoClient(
                 config.MONGO_URI,
-                serverSelectionTimeoutMS=config.MONGO_TIMEOUT_MS,
+                serverSelectionTimeoutMS=2000,
+                connectTimeoutMS=2000,
+                socketTimeoutMS=2000,
                 tz_aware=True,
             )
             client.admin.command("ping")
