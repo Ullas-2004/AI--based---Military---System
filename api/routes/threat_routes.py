@@ -28,7 +28,7 @@ os.makedirs(config.UPLOAD_FOLDER, exist_ok=True)
 @threat_bp.route("/detect", methods=["POST"])
 @token_required
 def detect_threat():
-    """Validate and analyse an uploaded surveillance image."""
+    """Validate and analyse an uploaded surveillance image (v2.0.1)."""
     original_name = "surveillance_image.jpg"
     ext = "jpg"
 
