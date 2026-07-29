@@ -41,8 +41,9 @@ def detect_threat():
     try:
         file.save(filepath)
         result = detect_objects(filepath)
-    except VisionUnavailableError as exc:
+    except Exception as exc:
         _safe_unlink(filepath)
+        logger.warning("Detection failed: %s", exc)
         return jsonify({"status": "error", "message": str(exc)}), 503
     finally:
         # The image has been analysed; we persist findings, not the raw frame.
