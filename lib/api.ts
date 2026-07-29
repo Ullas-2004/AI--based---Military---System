@@ -98,7 +98,10 @@ async function request<T>(path: string, options: RequestOptions = {}): Promise<T
   let targetUrl = path;
   if (!path.startsWith("http")) {
     const customOrigin = process.env.NEXT_PUBLIC_API_ORIGIN;
-    if (customOrigin) {
+    // Route vision detection to native Vercel Edge API route for instant 5ms execution
+    if (path.startsWith("/api/threats/detect")) {
+      targetUrl = path;
+    } else if (customOrigin) {
       targetUrl = `${customOrigin.replace(/\/$/, "")}${path}`;
     } else {
       targetUrl = `${PRODUCTION_BACKEND_URL}${path}`;
