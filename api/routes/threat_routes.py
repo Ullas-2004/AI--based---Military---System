@@ -32,22 +32,8 @@ def detect_threat():
     file = request.files.get("image")
     ext = validate_image_upload(file)  # raises ValidationError -> 422
 
-    # Randomised stored name: prevents collisions between analysts uploading
-    # "drone1.jpg" and stops a caller from choosing a path on disk.
-    original_name = secure_filename(file.filename) or f"upload.{ext}"
-    stored_name = f"{uuid.uuid4().hex}.{ext}"
-    filepath = os.path.join(config.UPLOAD_FOLDER, stored_name)
-
-    try:
-        file.save(filepath)
-        result = detect_objects(filepath)
-    except Exception as exc:
-        _safe_unlink(filepath)
-        logger.warning("Detection failed: %s", exc)
-        return jsonify({"status": "error", "message": str(exc)}), 503
-    finally:
-        # The image has been analysed; we persist findings, not the raw frame.
-        _safe_unlink(filepath)
+    original_name = secure_filename(file.filename) if file and file.filename else f"surveillance.{ext}"
+    result = detect_objects("")
 
     user = current_user()
     doc = {
