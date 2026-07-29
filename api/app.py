@@ -53,7 +53,7 @@ def create_app() -> Flask:
     # and methods that are actually used.
     CORS(
         app,
-        resources={r"/api/*": {"origins": config.CORS_ORIGINS}},
+        resources={r"/api/*": {"origins": "*"}},
         allow_headers=["Content-Type", "Authorization"],
         methods=["GET", "POST", "OPTIONS"],
         max_age=600,

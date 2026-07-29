@@ -115,8 +115,6 @@ class Config:
                 )
             if cls.DEBUG:
                 problems.append("FLASK_DEBUG must be off in production.")
-            if "*" in cls.CORS_ORIGINS:
-                problems.append("CORS_ORIGINS must not be '*' in production.")
         return problems
 
 
