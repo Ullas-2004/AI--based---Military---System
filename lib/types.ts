@@ -25,6 +25,10 @@ export interface Detection {
   is_proxy_class: boolean;
   confidence: number;
   bbox: { x1: number; y1: number; x2: number; y2: number };
+  pctX1?: number;
+  pctY1?: number;
+  pctX2?: number;
+  pctY2?: number;
   detected_at: string;
 }
 

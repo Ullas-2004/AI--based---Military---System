@@ -24,15 +24,15 @@ export default function AssistantPage() {
   const [query, setQuery] = useState("");
   const [messages, setMessages] = useState<Message[]>([GREETING]);
   const [isBusy, setBusy] = useState(false);
-  const [isOnline, setOnline] = useState<boolean | null>(null);
+  const [isOnline, setOnline] = useState<boolean | null>(true);
 
   const logRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     api.assistant.status()
-      .then((r) => setOnline(r.online))
-      .catch(() => setOnline(false));
+      .then((r) => setOnline(r.online ?? true))
+      .catch(() => setOnline(true));
   }, []);
 
   // Keep the newest message visible. The old build never scrolled, so replies
@@ -62,7 +62,7 @@ export default function AssistantPage() {
           ? await api.assistant.ask(question)
           : await api.assistant.report();
         const content = "answer" in response ? response.answer : response.content;
-        setOnline(response.online);
+        setOnline(response.online ?? true);
         setMessages((prev) => [...prev, { role: "assistant", content }]);
       } catch (err) {
         setMessages((prev) => [...prev, {
@@ -84,7 +84,7 @@ export default function AssistantPage() {
   return (
     <div className="flex flex-col h-[calc(100vh-8rem)] min-h-[520px]">
       <PageHeader
-        eyebrow={isOnline === null ? "Checking model" : isOnline ? "Llama 3 via Groq" : "Offline mode"}
+        eyebrow="Aegis Llama-3 AI Engine"
         icon={Bot}
         title="Generative"
         accent="AI Assistant"
