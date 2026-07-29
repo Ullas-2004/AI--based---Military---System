@@ -100,11 +100,7 @@ async function request<T>(path: string, options: RequestOptions = {}): Promise<T
     const customOrigin = process.env.NEXT_PUBLIC_API_ORIGIN;
     if (customOrigin) {
       targetUrl = `${customOrigin.replace(/\/$/, "")}${path}`;
-    } else if (
-      typeof window !== "undefined" &&
-      !window.location.hostname.includes("localhost") &&
-      !window.location.hostname.includes("127.0.0.1")
-    ) {
+    } else {
       targetUrl = `${PRODUCTION_BACKEND_URL}${path}`;
     }
   }
