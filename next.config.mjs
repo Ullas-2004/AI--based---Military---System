@@ -2,7 +2,7 @@
 
 // Where the Flask API lives. Defaults to localhost for `npm run dev`; docker
 // compose sets this to the service name so the containers can find each other.
-const API_ORIGIN = process.env.API_ORIGIN ?? "http://127.0.0.1:5332";
+const API_ORIGIN = (process.env.API_ORIGIN || "https://ai-based-military-system-1.onrender.com").replace(/\/$/, "");
 
 const nextConfig = {
   // Proxy /api/* to Flask so the browser stays on a single origin: no CORS
