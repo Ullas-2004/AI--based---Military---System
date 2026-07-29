@@ -67,7 +67,10 @@ class Config:
     ]
 
     # --- Database ----------------------------------------------------------
-    MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017/")
+    MONGO_URI = os.getenv(
+        "MONGO_URI",
+        "mongodb+srv://murthynamratha453_db_user:Namratha2006@cluster0.h2jbttc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    )
     MONGO_DB_NAME = os.getenv("MONGO_DB_NAME", "aegis_ai_db")
     MONGO_TIMEOUT_MS = _env_int("MONGO_TIMEOUT_MS", 5000)
 
