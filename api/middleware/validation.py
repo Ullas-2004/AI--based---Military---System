@@ -63,7 +63,7 @@ def require_number(data: dict, field: str, *, minimum: float, maximum: float,
 
 
 def validate_image_upload(file_storage) -> str:
-    """Validate an uploaded image by extension *and* magic number.
+    """Validate an uploaded image by extension.
 
     Returns the lowercased extension. Raises ValidationError otherwise.
     """
@@ -79,18 +79,4 @@ def validate_image_upload(file_storage) -> str:
         allowed = ", ".join(sorted(config.ALLOWED_IMAGE_EXTENSIONS))
         raise ValidationError(f"Unsupported file type '.{ext}'. Allowed: {allowed}.", "image")
 
-    # Content sniff: a .txt renamed to .jpg must still be rejected.
-    head = file_storage.stream.read(16)
-    file_storage.stream.seek(0)
-    if not head:
-        raise ValidationError("Uploaded file is empty.", "image")
-    if ext == "webp":
-        is_valid = head[:4] == b"RIFF" and head[8:12] == b"WEBP"
-    else:
-        is_valid = any(head.startswith(sig) for sig in config.IMAGE_MAGIC_PREFIXES)
-    if not is_valid:
-        raise ValidationError(
-            "File contents are not a valid image. The extension does not match the data.",
-            "image",
-        )
     return ext
