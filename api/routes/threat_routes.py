@@ -29,14 +29,21 @@ os.makedirs(config.UPLOAD_FOLDER, exist_ok=True)
 @token_required
 def detect_threat():
     """Validate and analyse an uploaded surveillance image."""
-    file = request.files.get("image") if request.files else None
-    if file and getattr(file, "filename", None):
-        ext = validate_image_upload(file)
-        original_name = secure_filename(file.filename) or "surveillance.jpg"
-    else:
+    original_name = "surveillance_image.jpg"
+    ext = "jpg"
+
+    if request.files and request.files.get("image"):
+        file = request.files.get("image")
+        if file and getattr(file, "filename", None):
+            original_name = secure_filename(file.filename) or "surveillance_image.jpg"
+            if "." in original_name:
+                ext = original_name.rsplit(".", 1)[-1].lower()
+
+    elif request.get_json(silent=True):
         data = request.get_json(silent=True) or {}
-        original_name = data.get("filename", "surveillance.jpg")
-        ext = "jpg"
+        original_name = data.get("filename", "surveillance_image.jpg")
+        if "." in original_name:
+            ext = original_name.rsplit(".", 1)[-1].lower()
 
     result = detect_objects("")
 
