@@ -55,7 +55,8 @@ def create_app() -> Flask:
         app,
         resources={r"/api/*": {"origins": "*"}},
         allow_headers=["Content-Type", "Authorization"],
-        methods=["GET", "POST", "OPTIONS"],
+        methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+        supports_credentials=False,
         max_age=600,
     )
 
@@ -63,9 +64,17 @@ def create_app() -> Flask:
     _register_error_handlers(app)
     _register_security_headers(app)
 
+    # Belt-and-suspenders: ensure CORS headers are always present
+    @app.after_request
+    def add_cors_headers(response):
+        response.headers["Access-Control-Allow-Origin"] = "*"
+        response.headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization"
+        response.headers["Access-Control-Allow-Methods"] = "GET, POST, PUT, DELETE, OPTIONS"
+        return response
+
     logger.info(
-        "AegisAI backend initialised (env=%s, debug=%s, origins=%s)",
-        config.ENV, config.DEBUG, ", ".join(config.CORS_ORIGINS),
+        "AegisAI backend initialised (env=%s, debug=%s)",
+        config.ENV, config.DEBUG,
     )
     return app
 
