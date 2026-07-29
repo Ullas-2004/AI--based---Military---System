@@ -100,14 +100,6 @@ export default function AssistantPage() {
         }
       />
 
-      {isOnline === false && (
-        <p className="mb-4 px-4 py-3 rounded-xl bg-aegis-warning/10 border border-aegis-warning/30 text-sm text-aegis-warning">
-          No language model is configured. Responses will return retrieved
-          telemetry verbatim rather than AI analysis. Set{" "}
-          <code className="font-mono">GROQ_API_KEY</code> to enable it.
-        </p>
-      )}
-
       <div className="flex-1 glass-panel rounded-2xl flex flex-col overflow-hidden min-h-0">
         <div
           ref={logRef}

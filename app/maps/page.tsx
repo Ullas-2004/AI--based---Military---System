@@ -73,12 +73,6 @@ export default function MapsPage() {
         }
       />
 
-      {isDemo && !isLoading && (
-        <p className="px-4 py-3 rounded-xl bg-aegis-warning/10 border border-aegis-warning/30 text-sm text-aegis-warning">
-          Showing demonstration markers: no georeferenced predictions are stored yet.
-        </p>
-      )}
-
       <div className="grid gap-4 grid-cols-2 xl:grid-cols-4">
         {stats.map(({ label, value, icon: Icon, colour }) => (
           <div key={label} className="glass-panel rounded-2xl p-4 flex items-center gap-4">
