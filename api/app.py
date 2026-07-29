@@ -72,6 +72,10 @@ def create_app() -> Flask:
         response.headers["Access-Control-Allow-Methods"] = "GET, POST, PUT, DELETE, OPTIONS"
         return response
 
+    # Start loading YOLO model in background thread (non-blocking)
+    from services.vision_service import preload_model
+    preload_model()
+
     logger.info(
         "AegisAI backend initialised (env=%s, debug=%s)",
         config.ENV, config.DEBUG,

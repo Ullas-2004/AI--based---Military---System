@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 
 _model = None
 _load_lock = threading.Lock()
-_load_failed = False
+_load_failed = True  # Start True so requests never block; background preload clears this
 
 
 class VisionUnavailableError(RuntimeError):
@@ -24,17 +24,23 @@ class VisionUnavailableError(RuntimeError):
 
 
 def _get_model():
-    global _model, _load_failed
+    """Return the loaded model or None. Never blocks on loading."""
+    global _model
     if _model is not None:
         return _model
-    if _load_failed:
-        return None
+    return None
+
+
+def _try_load_model():
+    """Actually attempt to load the model. Called only from background thread."""
+    global _model, _load_failed
     with _load_lock:
         if _model is not None:
             return _model
         try:
             from ultralytics import YOLO  # imported lazily: pulls in torch
             _model = YOLO(config.YOLO_WEIGHTS_PATH)
+            _load_failed = False
             logger.info("YOLO weights loaded from %s", config.YOLO_WEIGHTS_PATH)
             return _model
         except Exception as exc:
@@ -47,7 +53,7 @@ def preload_model():
     """Pre-load YOLO model in a background thread so first request is fast."""
     def _load():
         try:
-            _get_model()
+            _try_load_model()
         except Exception:
             pass
     t = threading.Thread(target=_load, daemon=True)
