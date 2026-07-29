@@ -10,6 +10,10 @@ import threading
 import numpy as np
 import xgboost as xgb
 
+# XGBoost compatibility patch for scikit-learn 1.6+
+if not hasattr(xgb.XGBRegressor, "_estimator_type"):
+    xgb.XGBRegressor._estimator_type = "regressor"
+
 from config import config
 from middleware.validation import ValidationError
 from services.taxonomy import (
