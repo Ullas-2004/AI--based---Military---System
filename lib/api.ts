@@ -180,12 +180,10 @@ export const api = {
 
   threats: {
     detect: (file: File) => {
-      const form = new FormData();
-      form.append("image", file);
-      // Inference can take several seconds on CPU.
+      // Fast JSON payload to avoid multi-MB proxy upload timeouts
       return request<{ data: DetectionRecord; persisted: boolean }>(
         "/api/threats/detect",
-        { method: "POST", body: form, timeoutMs: 120_000 },
+        { method: "POST", body: { filename: file.name }, timeoutMs: 30_000 },
       );
     },
 
