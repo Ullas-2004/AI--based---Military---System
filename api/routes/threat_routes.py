@@ -32,18 +32,21 @@ def detect_threat():
     original_name = "surveillance_image.jpg"
     ext = "jpg"
 
-    if request.files and request.files.get("image"):
-        file = request.files.get("image")
-        if file and getattr(file, "filename", None):
-            original_name = secure_filename(file.filename) or "surveillance_image.jpg"
-            if "." in original_name:
-                ext = original_name.rsplit(".", 1)[-1].lower()
+    try:
+        if request.files and request.files.get("image"):
+            f = request.files.get("image")
+            if f and getattr(f, "filename", None):
+                original_name = secure_filename(f.filename) or "surveillance_image.jpg"
+        elif request.form and request.form.get("filename"):
+            original_name = request.form.get("filename")
+        elif request.get_json(silent=True):
+            data = request.get_json(silent=True) or {}
+            original_name = data.get("filename", "surveillance_image.jpg")
+    except Exception:
+        pass
 
-    elif request.get_json(silent=True):
-        data = request.get_json(silent=True) or {}
-        original_name = data.get("filename", "surveillance_image.jpg")
-        if "." in original_name:
-            ext = original_name.rsplit(".", 1)[-1].lower()
+    if "." in original_name:
+        ext = original_name.rsplit(".", 1)[-1].lower()
 
     result = detect_objects("")
 
