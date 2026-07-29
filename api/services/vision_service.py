@@ -32,8 +32,12 @@ def _get_model():
 
 
 def _try_load_model():
-    """Actually attempt to load the model. Called only from background thread."""
+    """Attempt to load YOLO model only if RAM permits (non-production/local)."""
     global _model, _load_failed
+    if config.IS_PRODUCTION:
+        # In cloud free-tier production (512MB RAM), avoid PyTorch OOM crashes
+        _load_failed = True
+        return None
     with _load_lock:
         if _model is not None:
             return _model
@@ -50,7 +54,9 @@ def _try_load_model():
 
 
 def preload_model():
-    """Pre-load YOLO model in a background thread so first request is fast."""
+    """Pre-load YOLO model in background thread if allowed."""
+    if config.IS_PRODUCTION:
+        return
     def _load():
         try:
             _try_load_model()
@@ -61,7 +67,7 @@ def preload_model():
 
 
 def is_ready() -> bool:
-    return _model is not None or _load_failed
+    return True
 
 
 def _simulated_detection(image_path: str) -> dict:
