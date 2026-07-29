@@ -325,41 +325,10 @@ export const api = {
         }
       }
 
-      const defaultRecords: DetectionRecord[] = [
-        {
-          id: "6a69a74fd7ae0749ff5303d1",
-          original_filename: "ux-gun-5Mj4PO7KlFc-unsplash.jpg",
-          total_objects: 6,
-          model: "YOLOv8x-Military Fine-Tuned (Aegis-Custom v2.4)",
-          status: "confirmed",
-          created_at: new Date(Date.now() - 3600000).toISOString(),
-          detections: [
-            { object: "Fighter Aircraft (Lead)", source_class: "airplane", is_proxy_class: false, confidence: 98.4, pctX1: 0.16, pctY1: 0.18, pctX2: 0.38, pctY2: 0.36, bbox: { x1: 220, y1: 180, x2: 440, y2: 340 }, detected_at: new Date().toISOString() },
-            { object: "Fighter Aircraft (Wingman L)", source_class: "airplane", is_proxy_class: false, confidence: 97.6, pctX1: 0.38, pctY1: 0.22, pctX2: 0.58, pctY2: 0.40, bbox: { x1: 460, y1: 220, x2: 680, y2: 380 }, detected_at: new Date().toISOString() },
-            { object: "Fighter Aircraft (Wingman R)", source_class: "airplane", is_proxy_class: false, confidence: 99.1, pctX1: 0.60, pctY1: 0.25, pctX2: 0.82, pctY2: 0.44, bbox: { x1: 720, y1: 250, x2: 940, y2: 410 }, detected_at: new Date().toISOString() },
-          ],
-          unmapped_detections: [],
-        },
-        {
-          id: "6a69a74fd7ae0749ff5303d2",
-          original_filename: "istockphoto-1224578391-1024x1024.jpg",
-          total_objects: 2,
-          model: "YOLOv8x-Military Fine-Tuned (Aegis-Custom v2.4)",
-          status: "confirmed",
-          created_at: new Date(Date.now() - 7200000).toISOString(),
-          detections: [
-            { object: "Tactical Infantry", source_class: "person", is_proxy_class: false, confidence: 98.7, pctX1: 0.35, pctY1: 0.12, pctX2: 0.65, pctY2: 0.88, bbox: { x1: 350, y1: 120, x2: 650, y2: 880 }, detected_at: new Date().toISOString() },
-            { object: "Attack Helicopter", source_class: "airplane", is_proxy_class: false, confidence: 99.2, pctX1: 0.58, pctY1: 0.15, pctX2: 0.95, pctY2: 0.55, bbox: { x1: 580, y1: 150, x2: 950, y2: 550 }, detected_at: new Date().toISOString() },
-          ],
-          unmapped_detections: [],
-        },
-      ];
-
-      const combined = [...stored, ...defaultRecords];
       return {
         status: "success",
-        data: combined.slice(skip, skip + limit),
-        pagination: { total: combined.length, limit, skip, returned: combined.length },
+        data: stored.slice(skip, skip + limit),
+        pagination: { total: stored.length, limit, skip, returned: stored.length },
       } as Paginated<DetectionRecord>;
     },
 

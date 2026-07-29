@@ -155,12 +155,26 @@ export default function HistoryPage() {
         title="Threat"
         accent="Intelligence"
         actions={
-          <button
-            onClick={refresh}
-            className="px-5 py-2.5 rounded-xl bg-white/5 border border-white/15 text-gray-200 font-medium hover:bg-white/10 transition-colors"
-          >
-            Refresh
-          </button>
+          <div className="flex items-center gap-3">
+            <button
+              onClick={() => {
+                if (typeof window !== "undefined") {
+                  sessionStorage.removeItem("aegis.detection_history");
+                }
+                refresh();
+                refreshMetrics();
+              }}
+              className="px-4 py-2.5 rounded-xl bg-aegis-danger/20 border border-aegis-danger/40 text-aegis-danger font-medium hover:bg-aegis-danger/30 transition-colors"
+            >
+              Clear history
+            </button>
+            <button
+              onClick={refresh}
+              className="px-5 py-2.5 rounded-xl bg-white/5 border border-white/15 text-gray-200 font-medium hover:bg-white/10 transition-colors"
+            >
+              Refresh
+            </button>
+          </div>
         }
       />
 
