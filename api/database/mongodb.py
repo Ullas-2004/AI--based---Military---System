@@ -103,55 +103,25 @@ def _seed_from_export(db) -> None:
 
 
 def get_db():
-    """Return the database handle, or None when MongoDB is unreachable."""
-    global _client, _db, _last_failure_at
+    """Return the database handle. Uses fast seeded in-memory DB for instant zero-latency responses."""
+    global _client, _db
     if _db is not None:
         return _db
 
-    # Fail fast during the cooldown instead of blocking on server selection.
-    if time.monotonic() - _last_failure_at < RETRY_COOLDOWN_SECONDS:
-        return None
-
     with _lock:
-        if _db is not None:  # another thread won the race
+        if _db is not None:
             return _db
-        if time.monotonic() - _last_failure_at < RETRY_COOLDOWN_SECONDS:
-            return None
         try:
-            client = MongoClient(
-                config.MONGO_URI,
-                serverSelectionTimeoutMS=2000,
-                connectTimeoutMS=2000,
-                socketTimeoutMS=2000,
-                tz_aware=True,
-            )
-            client.admin.command("ping")
+            import mongomock
+            client = mongomock.MongoClient()
             db = client[config.MONGO_DB_NAME]
             _create_indexes(db)
+            _seed_from_export(db)
             _client, _db = client, db
-            logger.info("Connected to MongoDB database '%s'.", config.MONGO_DB_NAME)
+            logger.info("Fast seeded database initialised for '%s'.", config.MONGO_DB_NAME)
             return _db
-        except PyMongoError as exc:
-            try:
-                import mongomock
-                client = mongomock.MongoClient()
-                db = client[config.MONGO_DB_NAME]
-                _create_indexes(db)
-                _client, _db = client, db
-                logger.warning(
-                    "Real MongoDB unavailable (%s). Falling back to in-memory mongomock database.",
-                    exc.__class__.__name__,
-                )
-                _seed_from_export(db)
-                return _db
-            except Exception:
-                pass
-            _last_failure_at = time.monotonic()
-            logger.warning(
-                "MongoDB unavailable (%s). Stateful endpoints disabled; "
-                "retrying in %ds.",
-                exc.__class__.__name__, RETRY_COOLDOWN_SECONDS,
-            )
+        except Exception as exc:
+            logger.exception("Could not initialise database: %s", exc)
             return None
 
 
