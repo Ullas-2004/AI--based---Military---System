@@ -63,14 +63,21 @@ def detect_threat():
 
     db = get_db()
     if db is not None:
-        doc["_id"] = db.vision_detections.insert_one(doc).inserted_id
+        try:
+            doc["_id"] = db.vision_detections.insert_one(doc).inserted_id
+        except Exception as exc:
+            logger.warning("Could not persist vision detection: %s", exc)
+            doc["_id"] = ObjectId()
 
-    log_audit_event(
-        user.get("user_id", "unknown"),
-        "VISION_DETECT",
-        f"{len(result['detections'])} object(s) in '{original_name}'",
-        request.remote_addr or "",
-    )
+    try:
+        log_audit_event(
+            user.get("user_id", "unknown"),
+            "VISION_DETECT",
+            f"{len(result['detections'])} object(s) in '{original_name}'",
+            request.remote_addr or "",
+        )
+    except Exception:
+        pass
 
     serialized = serialize_doc(doc)
 
