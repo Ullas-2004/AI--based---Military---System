@@ -204,22 +204,28 @@ export default function DetectionPage() {
                   className="absolute inset-0 w-full h-full pointer-events-none"
                   aria-hidden="true"
                 >
-                  {result.detections.map((d, i) => {
+                  {result.detections.map((d: any, i) => {
                     const colour = colourFor(d.object);
+                    const x1 = d.pctX1 !== undefined ? d.pctX1 * imageSize.w : d.bbox.x1;
+                    const y1 = d.pctY1 !== undefined ? d.pctY1 * imageSize.h : d.bbox.y1;
+                    const x2 = d.pctX2 !== undefined ? d.pctX2 * imageSize.w : d.bbox.x2;
+                    const y2 = d.pctY2 !== undefined ? d.pctY2 * imageSize.h : d.bbox.y2;
+                    const width = Math.max(20, x2 - x1);
+                    const height = Math.max(20, y2 - y1);
                     return (
                       <g key={`${d.object}-${i}`}>
                         <rect
-                          x={d.bbox.x1}
-                          y={d.bbox.y1}
-                          width={d.bbox.x2 - d.bbox.x1}
-                          height={d.bbox.y2 - d.bbox.y1}
+                          x={x1}
+                          y={y1}
+                          width={width}
+                          height={height}
                           fill="none"
                           stroke={colour}
                           strokeWidth={Math.max(2, imageSize.w / 300)}
                         />
                         <text
-                          x={d.bbox.x1 + 4}
-                          y={Math.max(d.bbox.y1 - 6, 14)}
+                          x={x1 + 4}
+                          y={Math.max(y1 - 6, 14)}
                           fill={colour}
                           fontSize={Math.max(14, imageSize.w / 45)}
                           fontWeight="bold"
@@ -284,8 +290,8 @@ export default function DetectionPage() {
                       </td>
                       <td className="py-3 pr-4 text-gray-200">{d.confidence}%</td>
                       <td className="py-3 text-aegis-muted font-mono text-xs">
-                        {Math.round(d.bbox.x1)}, {Math.round(d.bbox.y1)} to{" "}
-                        {Math.round(d.bbox.x2)}, {Math.round(d.bbox.y2)}
+                        {Math.round((d as any).pctX1 !== undefined ? (d as any).pctX1 * (imageSize?.w || 1000) : d.bbox.x1)}, {Math.round((d as any).pctY1 !== undefined ? (d as any).pctY1 * (imageSize?.h || 1000) : d.bbox.y1)} to{" "}
+                        {Math.round((d as any).pctX2 !== undefined ? (d as any).pctX2 * (imageSize?.w || 1000) : d.bbox.x2)}, {Math.round((d as any).pctY2 !== undefined ? (d as any).pctY2 * (imageSize?.h || 1000) : d.bbox.y2)}
                       </td>
                     </tr>
                   ))}
